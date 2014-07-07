@@ -1,0 +1,60 @@
+//* scss-compile-options: --style compact
+
+$primary_color:#309bd7;
+$secondary_color: #0774ba;
+$tertiary_color: #f16d3e;
+$notice_color:$primary_color;
+$seperation_color:#fff100;
+$hover_color:$primary_color;
+$white_color: #ffffff;
+$black_color: #000000;
+
+$unigo_primary_color: #221f20;
+$unigo_secondary_color: #fdb913;
+
+$money_color:#3fb031;
+
+$secondary_color_focus: #055589;
+$disabled_color: #999999;
+
+$background_site:#ffffff;
+$background_white:#ffffff;
+
+
+$text_white: #fff;
+$text_base: #343434;
+$text_base_rgba_65: rgba(52,52,52,.65);
+$text_link: #ec1968;
+
+$border_base: #121212;
+
+
+$shade_black_25_lt: lighten($black_color, 25%);
+$shade_black_50_lt: lighten($black_color, 50%);
+$shade_black_75_lt: lighten($black_color, 75%);
+$shade_black_90_lt: lighten($black_color, 90%);
+
+
+$chart_color_low: #B03608;
+$chart_color_medium: #fdb913;
+$chart_color_high: #63B03A;
+
+
+// Color Mixins
+@mixin lighten_color($colorToLighten: $border_base, $percentToLighten: 50%) {
+    color: lighten($colorToLighten, $percentToLighten);
+}
+
+@mixin lighten_background_color($colorToLighten: $border_base, $percentToLighten: 50%) {
+    background-color: lighten($colorToLighten, $percentToLighten);
+}
+
+
+
+//* UNIGO COLORS
+
+$unigo_primary_color:#221f20; //* black
+$unigo_secondary_color:#fdb913; //* yellow
+$unigo_tertiary_color: #309bd7; //* blue
+
+$unigo_body_background:#b7b7b7;

@@ -1,0 +1,22 @@
+//* scss-compile-options: --style compact
+@import "mixin_base";
+
+@include declare-font-face("Open Sans Condensed", "/content/fonts/OpenSans-CondensedLight", 300);
+@include declare-font-face("Roboto Slab", "/content/fonts/RobotoSlab-Regular", 400);
+@include declare-font-face("Roboto Slab", "/content/fonts/RobotoSlab-Bold", 700);
+@include declare-font-face("Gibson", "/content/fonts/Gibson-Light", 100);
+@include declare-font-face("Gibson", "/content/fonts/Gibson-Regular", 400);
+@include declare-font-face("Gibson", "/content/fonts/Gibson-SemiBold", 500);
+@include declare-font-face("Gibson", "/content/fonts/Gibson-Bold", 700);
+@include declare-font-face("Chalkduster", "/content/fonts/Chalkduster", 100);
+
+$font_stack_base: Gibson, Arial, Helvetica, sans-serif; 
+$font_stack_headings: Gibson, "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial;
+$font_stack_condensed: "Open Sans Condensed", "HelveticaNeue-Condensed", "Arial-Condensed", Arial;
+$font_stack_voice: "Open Sans Condensed", "HelveticaNeue-Condensed", "Arial-Condensed", Arial;
+$font_stack_money: "Roboto Slab","HeleveticaNeue-CondensedBold", "Arial-Condensed", Arial;
+
+
+$font_stack_headings_tile: $font_stack_condensed;
+
+
