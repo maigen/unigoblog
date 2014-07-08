@@ -1,8 +1,12 @@
 					<footer class="footer" role="contentinfo">
 					
 						<div id="inner-footer" class="row clearfix">
+
+							<div class="large-3 medium-3 columns">
+								<img src="/mysite/wp-content/themes/unigoblog/images/brand-images/unigoLogo.gif">
+							</div>
 						
-							<div class="large-3 large-offset-3 medium-3 medium-offset-3 columns">
+							<div class="large-3 medium-3 columns">
 								<h4>About Unigo</h4>
 								<nav role="navigation">
 		    						<?php
