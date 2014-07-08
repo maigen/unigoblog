@@ -14,4 +14,8 @@
 
 @font-face { font-family: "Chalkduster"; src: url("/content/fonts/Chalkduster.eot"); src: url("/content/fonts/Chalkduster.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Chalkduster.woff") format("woff"), url("/content/fonts/Chalkduster.ttf") format("truetype"), url("/content/fonts/Chalkduster.svg#Chalkduster") format("svg"); font-weight: 100; font-style: normal; font-stretch: normal; }
 
-body { color: red; }
+body { background-color: black; }
+
+.footer { background-color: white; padding-top: 60px; }
+
+#copyright_text { color: white; text-align: center; }
