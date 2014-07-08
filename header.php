@@ -27,13 +27,13 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
-  	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+  		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-
+		<link href="/wp_maigen/wp-content/themes/JointsWP-master/stylesheets/screen.css" rel="stylesheet"/>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -42,19 +42,44 @@
 		<div class="inner-wrap">
 			<div id="container">
 
-				<header class="header" role="banner">
+				<header class="header_container_16" role="banner">
 
 					<div id="inner-header" class="row">
-						<div class="large-12 columns">
+                        <div class="grid_3" id="unigo-logo">
+                            <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
+
+                        </div>
+
+                        <div class="grid_13">
+                            <!-- top-area -->
+                            <div class="top-area">    
+                                <!-- <div class="drop">
+                                    <div id="unigoHeader_liBecomeAMember">
+                                        <a href="#" id="becomeExpertLink" class="black-link">become a member</a>
+                                        <ul id="expertDropdown">
+                                            <li><a href="/register.aspx?type=hs">High School Student</a></li>
+                                            <li><a href="/register.aspx?type=parent">Parent</a></li>
+                                            <li><a href="/CollegeStudentExpert.aspx">College Student</a></li>
+                                            <li><a href="/CollegeCounselorExpert.aspx">College Counselor</a></li>
+                                        </ul>
+                                    </div>                               
+                                </div> -->
+                                <a id="unigoHeader_hlLoginLogout" class="orange-link" href="/Login.aspx">sign in</a>
+                            </div>
+                        </div>
+
+
+                        <div class="clear"></div>
+
+
+
+<!-- 						<div class="large-12 columns">
 							<h1>
 								<a href="<?php echo home_url(); ?>" rel="nofollow">
 									<?php bloginfo('name'); ?>
 								</a>
-								<small>
-									<?php  bloginfo('description'); ?>
-								</small>
 							</h1>
-						</div>
+						</div> -->
 
 						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
 
