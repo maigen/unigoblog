@@ -1,13 +1,43 @@
-#container_12 {
-    width: 1024px;
-    background-color: white;
+#logo {
+    margin-top: 10px;
 }
-.menu-sign_in_nav-container li {
-    text-decoration: none;
+
+@mixin nav-div-style {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px 15px 8px 13px;
+    border-radius: 0 0 6px 6px;
 }
+
+#signup_nav {
+    font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #e7e7e7;
+    @include nav_div_style
+}
+
+#signup_nav a {
+    font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    color: #e7e7e7;
+}
+
 #signin_nav {
     background-color: #fdb913;
+    @include nav-div-style
 }
-#signup_nav {
-    background
+
+#signin_nav a {
+    color: #221f20;
+    font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
 }
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-bar nav {
+    background-color: #e7e7e7;
+    color: #309bd7;
+}
+
