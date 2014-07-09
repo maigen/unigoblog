@@ -41,9 +41,7 @@
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			<div id="container_12">
-
 				<header class="header_container_12" role="banner">
-
 					<div id="inner-header" class="row">
                         <div class="large-3 columns" id="logo">
                             <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
@@ -95,6 +93,9 @@
                              <div class="large-12 columns" id="big_black_box">
                                  <?php the_title('<h1>', '</h1>'); ?>
                              </div>
+
+
+
 					</div> <!-- end #inner-header -->
 
 				</header> <!-- end header -->
