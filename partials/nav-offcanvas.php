@@ -1,4 +1,4 @@
-<div class="large-12 columns show-for-medium-up">
+<div class="large-12 columns show-for-medium-up" id="navigation_bar">
 	<div class="sticky">
 	
 		<!-- If you want to use the more traditional "fixed" navigation.
