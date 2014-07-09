@@ -3,11 +3,26 @@
 						<div id="inner-footer" class="row clearfix">
 
 							<div class="large-3 medium-3 columns">
-								<img src="/mysite/wp-content/themes/unigoblog/images/brand-images/unigoLogo.gif">
+								<div id="footer-logo">
+									<img src="/mysite/unigoLogo.gif">
+								</div>
+								<br>
+
+								<!-- social media icons here -->
+								<ul class="social-networks">
+									<li class="facebook">
+										<a href="https://www.facebook.com/myunigo" target="_blank">facebook</a>
+									</li>
+									<li class="twitter">
+										<a href="https://twitter.com/unigo" target="_blank">twitter</a>
+									</li>
+								</ul>
 							</div>
+
+
 						
 							<div class="large-3 medium-3 columns">
-								<h4>About Unigo</h4>
+								<h5>About Unigo</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -26,7 +41,7 @@
 		    				</div>
 
 		    				<div class="large-3 medium-3 columns">
-		    					<h4>Colleges</h4>
+		    					<h5>Colleges</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -45,7 +60,7 @@
 		    				</div>
 
 		    				<div class="large-3 medium-3 columns">
-		    					<h4>Live Counseling</h4>
+		    					<h5>Live Counseling</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -66,7 +81,7 @@
 
 		    			<div class="row">
 		    				<div class="large-3 large-offset-3 medium-3 medium-offset-3 columns">
-								<h4>Membership</h4>
+								<h5>Membership</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -84,7 +99,7 @@
 		    					</nav>
 		    				</div>
 		    				<div class="large-3 medium-3 columns">
-		    					<h4>Customer Service</h4>
+		    					<h5>Customer Service</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -102,7 +117,7 @@
 		    					</nav>
 		    				</div>
 		    				<div class="large-3 medium-3 columns">
-		    					<h4>Absolute Admin</h4>
+		    					<h5>Absolute Admin</h5>
 								<nav role="navigation">
 		    						<?php
 
@@ -123,7 +138,6 @@
 
 
 		    				<br>
-		    				<hr>
 			               
 			                <div class="large-12 medium-12 columns" id="copyright_text">		
 								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
