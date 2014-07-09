@@ -52,14 +52,13 @@
                         <div class="large-3 large-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
                             <nav role="signup_nav">  
-                                become a member
                                 <?php
                                 $defaults = array(
                                     'menu'            => 'sign_up_nav',
                                     'container'       => 'div',
-                                    'menu_class'      => 'menu',
+                                    'menu_class'      => 'dropdown',
                                     'echo'            => true,
-                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'items_wrap'      => '<ul><li id="menu-name">become a member</li><ul id="%1$s" class="%2$s">%3$s</ul>',
                                 );
                                 wp_nav_menu( $defaults );
                                 ?>
@@ -71,9 +70,9 @@
 
                         <div class="clear"></div>
 
-						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
 
-						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
+						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>
 
