@@ -9,7 +9,7 @@ body {
 	margin-top: 60px;
 	border-top: 2px solid #e7e7e7;
 	padding: 44px 0 0;
-	
+
 		@mixin social-icons {
 			display: block;
 			text-indent: -9999px;
@@ -27,7 +27,7 @@ body {
 		h5 {
 			text-transform: uppercase;
 			color: #221f20;
-			margin: 0 0 12px;
+			margin: 0 0 12px 15px;
 			font: 14px/18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
 		}
 		#footer-logo {
@@ -57,6 +57,13 @@ body {
 			@include social-icons;
 			background-position: -44px -37px;
 		}
+}
+
+#main {
+	h2 a {
+	color: #b7b7b7;
+	font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+	}
 }
 
 
