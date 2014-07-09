@@ -40,32 +40,43 @@
 
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
-			<div id="container">
+			<div id="container_12">
 
-				<header class="header_container_16" role="banner">
+				<header class="header_container_12" role="banner">
 
 					<div id="inner-header" class="row">
-                        <div class="grid_3" id="unigo-logo">
+                        <div class="large-3 columns">
                             <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
-
                         </div>
 
-                        <div class="grid_13">
+                        <div class="large-2 large-offset-6 columns" id="signup_nav">
                             <!-- top-area -->
-                            <div class="top-area">    
-                                <!-- <div class="drop">
-                                    <div id="unigoHeader_liBecomeAMember">
-                                        <a href="#" id="becomeExpertLink" class="black-link">become a member</a>
-                                        <ul id="expertDropdown">
-                                            <li><a href="/register.aspx?type=hs">High School Student</a></li>
-                                            <li><a href="/register.aspx?type=parent">Parent</a></li>
-                                            <li><a href="/CollegeStudentExpert.aspx">College Student</a></li>
-                                            <li><a href="/CollegeCounselorExpert.aspx">College Counselor</a></li>
-                                        </ul>
-                                    </div>                               
-                                </div> -->
-                                <a id="unigoHeader_hlLoginLogout" class="orange-link" href="/Login.aspx">sign in</a>
-                            </div>
+                            <nav role="signup_nav">  
+                                <?php
+                                $defaults = array(
+                                    'menu'            => 'sign_up_nav',
+                                    'container'       => 'div',
+                                    'menu_class'      => 'menu',
+                                    'echo'            => true,
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                );
+                                wp_nav_menu( $defaults );
+                                ?>
+                            </nav>  
+                        </div>                              
+                        <div class="large-1 columns" id="signin_nav">
+                            <nav role="signup_nav">  
+                                <?php
+                                $defaults = array(
+                                    'menu'            => 'sign_in_nav',
+                                    'container'       => 'div',
+                                    'menu_class'      => 'menu',
+                                    'echo'            => true,
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                );
+                                wp_nav_menu( $defaults );
+                                ?>
+                            </nav>
                         </div>
 
 
@@ -73,15 +84,7 @@
 
 
 
-<!-- 						<div class="large-12 columns">
-							<h1>
-								<a href="<?php echo home_url(); ?>" rel="nofollow">
-									<?php bloginfo('name'); ?>
-								</a>
-							</h1>
-						</div> -->
-
-						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
+						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
 
 						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
 
