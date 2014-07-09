@@ -133,6 +133,9 @@ function joints_scripts_and_styles() {
     // adding Foundation scripts file in the footer
     wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js', array( 'jquery' ), '', true );
    
+   // adding Foundation scripts file in the footer
+   wp_enqueue_script( 'foundation-dropdown', get_template_directory_uri() . '/bower_components/foundation/js/foundation/foundation.dropdown.js', array( 'jquery' ), '', true );
+   
     // register main stylesheet
     wp_enqueue_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), '', 'all' );
     
