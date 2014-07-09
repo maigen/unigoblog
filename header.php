@@ -51,15 +51,28 @@
 
                         <div class="large-3 large-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
-                            <nav role="signup_nav">  
+                            <nav role="signup_nav" data-dropdown="drop1">  
                                 <?php
+                                
                                 $defaults = array(
+                                    'theme_location'  => '',
                                     'menu'            => 'sign_up_nav',
                                     'container'       => 'div',
-                                    'menu_class'      => 'dropdown',
+                                    'container_class' => '',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
                                     'echo'            => true,
-                                    'items_wrap'      => '<ul><li id="menu-name">become a member</li><ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul><li id="item-id">become a member</li>%3$s</ul>','<ul id="drop1" data-dropdown-content class="f-dropdown">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => ''
                                 );
+
                                 wp_nav_menu( $defaults );
                                 ?>
                             </nav>  
@@ -79,6 +92,9 @@
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
 
+                             <div class="large-12 columns" id="big_black_box">
+                                 <?php the_title('<h1>', '</h1>'); ?>
+                             </div>
 					</div> <!-- end #inner-header -->
 
 				</header> <!-- end header -->
