@@ -36,8 +36,23 @@ li {
     text-decoration: none;
 }
 
-.top-bar nav {
-    background-color: #e7e7e7;
-    color: #309bd7;
+nav {
+    .top-bar-section {
+        ul {
+            li:not(.has-form) a:not(.button) {
+                padding: 0 15px;
+                line-height: 45px;
+                background: $background_white;
+                color: $unigo_tertiary_color;
+                
+                &:hover {
+                background: $background_white;
+                }
+            }
+        }
+    }
+    &.top-bar {
+        background: $background_white;
+        overflow: visible;
+    }
 }
-
