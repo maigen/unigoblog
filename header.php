@@ -45,13 +45,14 @@
 				<header class="header_container_12" role="banner">
 
 					<div id="inner-header" class="row">
-                        <div class="large-3 columns">
+                        <div class="large-3 columns" id="logo">
                             <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
                         </div>
 
-                        <div class="large-2 large-offset-6 columns" id="signup_nav">
+                        <div class="large-3 large-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
                             <nav role="signup_nav">  
+                                become a member
                                 <?php
                                 $defaults = array(
                                     'menu'            => 'sign_up_nav',
@@ -65,24 +66,10 @@
                             </nav>  
                         </div>                              
                         <div class="large-1 columns" id="signin_nav">
-                            <nav role="signup_nav">  
-                                <?php
-                                $defaults = array(
-                                    'menu'            => 'sign_in_nav',
-                                    'container'       => 'div',
-                                    'menu_class'      => 'menu',
-                                    'echo'            => true,
-                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-                                );
-                                wp_nav_menu( $defaults );
-                                ?>
-                            </nav>
+                            <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
                         </div>
 
-
                         <div class="clear"></div>
-
-
 
 						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
 
