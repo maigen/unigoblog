@@ -16,20 +16,12 @@
 
 body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif; }
 
-li { list-style: none; font-size: 13px; line-height: 24px; }
-
 .footer { margin-top: 60px; border-top: 2px solid #e7e7e7; padding: 44px 0 0; }
-
+.footer li { list-style: none; font-size: 13px; line-height: 24px; }
 .footer h5 { text-transform: uppercase; color: #221f20; margin: 0 0 12px; font: 14px/18px Gibson-SemiBold, Arial, Helvetica, sans-serif; }
-
-#footer-logo { margin: 0 0 40px 3px; }
-
-#copyright_text { text-align: center; font: 11px/13px Helvetica, Arial, sans-serif; color: #b7b7b7; border-top: 2px solid #e7e7e7; padding: 15px 0 20px; top: 10px; }
-
-.social-networks { overflow: hidden; padding: 0 0 41px; }
-
-.facebook { float: left; padding: 0 14px 0 0; }
-
-.facebook a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: 0 -37px; }
-
-.twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: -44px -37px; }
+.footer #footer-logo { margin: 0 0 40px 3px; }
+.footer #copyright_text { text-align: center; font: 11px/13px Helvetica, Arial, sans-serif; color: #b7b7b7; border-top: 2px solid #e7e7e7; padding: 15px 0 20px; top: 10px; }
+.footer .social-networks { overflow: hidden; padding: 0 0 41px; }
+.footer .facebook { float: left; padding: 0 14px 0 0; }
+.footer .facebook a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: 0 -37px; }
+.footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: -44px -37px; }
