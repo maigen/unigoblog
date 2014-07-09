@@ -1,58 +1,72 @@
-#logo {
-    margin-top: 10px;
-}
+header {
 
-@mixin nav-div-style {
-    display: inline-block;
-    vertical-align: top;
-    padding: 5px 15px 8px 13px;
-    border-radius: 0 0 6px 6px;
-}
+    #logo {
+        margin-top: 10px;
+    }
 
-#signup_nav {
-    font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-    background-color: black;
-    color: #e7e7e7;
-    @include nav_div_style
-}
+    @mixin nav-div-style {
+        display: inline-block;
+        vertical-align: top;
+        padding: 5px 15px 8px 13px;
+        border-radius: 0 0 6px 6px;
+    }
 
-#signup_nav a {
-    font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-    color: #e7e7e7;
-}
+    #signup_nav {
+        font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: #e7e7e7;
+        @include nav_div_style
+    }
 
-#signin_nav {
-    background-color: #fdb913;
-    @include nav-div-style
-}
+    #signup_nav a {
+        font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+        color: #e7e7e7;
+    }
 
-#signin_nav a {
-    color: #221f20;
-    font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-}
+    #signin_nav {
+        background-color: #fdb913;
+        @include nav-div-style
+    }
 
-li {
-    list-style: none;
-    text-decoration: none;
-}
+    #signin_nav a {
+        color: #221f20;
+        font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    }
 
-nav {
-    .top-bar-section {
-        ul {
-            li:not(.has-form) a:not(.button) {
-                padding: 0 15px;
-                line-height: 45px;
-                background: $background_white;
-                color: $unigo_tertiary_color;
-                
-                &:hover {
-                background: $background_white;
+    li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    nav {
+        .top-bar-section {
+            ul {
+                li:not(.has-form) a:not(.button) {
+                    padding: 0 15px;
+                    line-height: 45px;
+                    background: $background_white;
+                    color: $unigo_tertiary_color;
+                    
+                    &:hover {
+                    background: $background_white;
+                    }
                 }
             }
         }
+        &.top-bar {
+            background: $background_white;
+            overflow: visible;
+        }
     }
-    &.top-bar {
-        background: $background_white;
-        overflow: visible;
+
+    #big_black_box {
+        height: 125px;
+        margin-bottom: 10px;
+        background-color: $unigo_primary_color;
+        h1 {
+            padding: 8px;
+            font: 5em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            color: $white_color;
+        }
     }
 }
