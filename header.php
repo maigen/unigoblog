@@ -97,8 +97,6 @@
                                  <?php the_title('<h1>', '</h1>'); ?>
                              </div>
 
-
-
 					</div> <!-- end #inner-header -->
 
 				</header> <!-- end header -->

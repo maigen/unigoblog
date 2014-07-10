@@ -20,11 +20,13 @@ header #signup_nav a { font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-seri
 header #signin_nav { background-color: #fdb913; display: inline-block; vertical-align: top; padding: 5px 15px 8px 13px; border-radius: 0 0 6px 6px; }
 header #signin_nav a { color: #221f20; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; }
 header li { list-style: none; text-decoration: none; }
-header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; }
+header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 1em; font-weight: 700; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
 header nav.top-bar { background: white; overflow: visible; }
 header #big_black_box { height: 125px; margin-bottom: 10px; background-color: #221f20; }
 header #big_black_box h1 { padding: 8px; font: 5em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+
+#searchsubmit { background-color: #fdb913; color: #221f20; font-weight: 700; border-radius: 6px; }
 
 body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif; }
 

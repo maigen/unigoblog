@@ -46,6 +46,8 @@ header {
                     line-height: 45px;
                     background: $background_white;
                     color: $unigo_tertiary_color;
+                    font-size: 1em;
+                    font-weight: 700;
                     
                     &:hover {
                     background: $background_white;
@@ -69,4 +71,11 @@ header {
             color: $white_color;
         }
     }
+}
+
+#searchsubmit {
+    background-color: $unigo_secondary_color;
+    color: $unigo_primary_color;
+    font-weight: 700;
+    border-radius: 6px;
 }
