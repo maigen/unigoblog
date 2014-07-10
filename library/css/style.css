@@ -7161,13 +7161,15 @@ COMMENT STYLES
     padding-bottom: 0.9375rem;
     padding-left: 1.75rem;
     font-size: 0.8125rem;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out;
     /*     @else                            { font-size: $padding - rem-calc(2); } */
-    background-color: #008cba;
-    border-color: #007095;
     color: white;
     float: right; }
     .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
-      background-color: #007095; }
+      background-color: #fff; 
+      border: solid 2px #fdb913; }
     .commentlist .comment-reply-link:hover, .commentlist .comment-reply-link:focus {
       color: white; }
 

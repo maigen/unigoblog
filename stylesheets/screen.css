@@ -23,15 +23,19 @@ header li { list-style: none; text-decoration: none; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 1em; font-weight: 700; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
 header nav.top-bar { background: white; overflow: visible; }
-header #big_black_box { border-radius: 6px; height: 125px; margin-bottom: 10px; background-color: #221f20; }
-header #big_black_box h1 { padding: 8px; font: 5em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+header #big_black_box { border-radius: 6px; padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
+header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 42px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+
+.entry-content { padding-top: 28px; }
 
 #s { border-radius: 6px; }
 
-#comment { border-radius: 6px; }
+.respond-form textarea, input, li.comment { border-radius: 6px; }
 
-.button { background-color: #fdb913; color: #221f20; font-weight: 700; border: solid 2px #fdb913; border-radius: 6px; }
-.button:hover { background-color: white; color: #221f20; }
+.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content { background-color: #fdb913; color: #221f20; font-weight: 700; border: solid 2px #fdb913; border-radius: 6px; }
+.button:hover, .button :focus, .button :active, .button :visited, #content .commentlist .comment-reply-link:hover, #content .commentlist .comment-reply-link :focus, #content .commentlist .comment-reply-link :active, #content .commentlist .comment-reply-link :visited, a.comment-reply-link:hover, a.comment-reply-link :focus, a.comment-reply-link :active, a.comment-reply-link :visited, .comment-content:hover, .comment-content :focus, .comment-content :active, .comment-content :visited { background-color: white; color: #221f20; }
+
+#sidebar1 { padding-left: 35px; }
 
 .widget { text-transform: uppercase; }
 .widget h4 { font-weight: 700; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; }

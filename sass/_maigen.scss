@@ -63,35 +63,43 @@ header {
 
     #big_black_box {
         border-radius: 6px;
-        height: 125px;
-        margin-bottom: 10px;
+        padding: 40px 30px 40px;
+        margin: 0 0 24px;
         background-color: $unigo_primary_color;
         h1 {
-            padding: 8px;
-            font: 5em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            padding: 12px 10px 12px 10px;
+            font: 42px Gibson-SemiBold, Arial, Helvetica, sans-serif;
             color: $white_color;
         }
     }
+}
+
+.entry-content {
+    padding-top: 28px;
 }
 
 #s {
     border-radius: 6px;
 }
 
-#comment {
+.respond-form textarea, input, li.comment {
     border-radius: 6px;
 }
 
-.button {
+.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content {
     background-color: $unigo_secondary_color;
     color: $unigo_primary_color;
     font-weight: 700;
     border: solid 2px $unigo_secondary_color;
     border-radius: 6px;
-    &:hover {
+    &:hover, :focus, :active, :visited {
         background-color: $background_white;
         color: $unigo_primary_color;
     }
+}
+
+#sidebar1 {
+    padding-left: 35px;
 }
 
 .widget {
@@ -111,3 +119,4 @@ header {
         color: $unigo_tertiary_color !important;
     }
 }
+
