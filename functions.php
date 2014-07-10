@@ -53,7 +53,7 @@ MENUS & NAVIGATION
 register_nav_menus(
 	array(
 		'main-nav' => __( 'The Main Menu' ),   // main nav in header
-		'footer-links' => __( 'Footer Links' ) // secondary nav in footer
+		'footer-links' => __( 'Footer Links' ), // secondary nav in footer
 	)
 );
 
@@ -80,7 +80,7 @@ function joints_footer_links() {
     wp_nav_menu(array(
     	'container' => '',                              // remove nav container
     	'container_class' => 'footer-links clearfix',   // class of container (should you choose to use it)
-    	'menu' => __( 'Footer Links', 'jointstheme' ),   // nav name
+    	'menu' => __( 'Footer Links', 'jointstheme' ),  // nav name
     	'menu_class' => 'sub-nav',      // adding custom nav class
     	'theme_location' => 'footer-links',             // where it's located in the theme
     	'before' => '',                                 // before the menu

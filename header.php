@@ -33,7 +33,7 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-
+		<link href="/mysite/wp-content/themes/unigoblog/stylesheets/screen.css" rel="stylesheet"/>
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -47,12 +47,7 @@
 					<div id="inner-header" class="row">
 						<div class="large-12 columns">
 							<h1>
-								<a href="<?php echo home_url(); ?>" rel="nofollow">
-									<?php bloginfo('name'); ?>
-								</a>
-								<small>
-									<?php  bloginfo('description'); ?>
-								</small>
+								<?php wp_title(); ?> 
 							</h1>
 						</div>
 
