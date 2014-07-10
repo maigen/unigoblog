@@ -62,6 +62,7 @@ header {
     }
 
     #big_black_box {
+        border-radius: 6px;
         height: 125px;
         margin-bottom: 10px;
         background-color: $unigo_primary_color;
@@ -73,9 +74,35 @@ header {
     }
 }
 
-#searchsubmit {
+#s {
+    border-radius: 6px;
+}
+
+#comment {
+    border-radius: 6px;
+}
+
+.button {
     background-color: $unigo_secondary_color;
     color: $unigo_primary_color;
     font-weight: 700;
+    border: solid 2px $unigo_secondary_color;
     border-radius: 6px;
+    &:hover {
+        background-color: $background_white;
+        color: $unigo_primary_color;
+    }
+}
+
+.widget {
+    text-transform: uppercase;
+    h4 {
+        font-weight: 700;
+        font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    }
+
+    li {
+        color: $unigo_tertiary_color;
+        font: 0.95em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    }
 }
