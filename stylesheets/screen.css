@@ -1,138 +1,41 @@
-@charset "UTF-8";
-@font-face {
-  font-family: "Open Sans Condensed";
-  src: url("/content/fonts/OpenSans-CondensedLight.eot");
-  src: url("/content/fonts/OpenSans-CondensedLight.eot?#iefix") format("embedded-opentype"), url("/content/fonts/OpenSans-CondensedLight.woff") format("woff"), url("/content/fonts/OpenSans-CondensedLight.ttf") format("truetype"), url("/content/fonts/OpenSans-CondensedLight.svg#Open Sans Condensed") format("svg");
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Open Sans Condensed"; src: url("/content/fonts/OpenSans-CondensedLight.eot"); src: url("/content/fonts/OpenSans-CondensedLight.eot?#iefix") format("embedded-opentype"), url("/content/fonts/OpenSans-CondensedLight.woff") format("woff"), url("/content/fonts/OpenSans-CondensedLight.ttf") format("truetype"), url("/content/fonts/OpenSans-CondensedLight.svg#Open Sans Condensed") format("svg"); font-weight: 300; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Roboto Slab";
-  src: url("/content/fonts/RobotoSlab-Regular.eot");
-  src: url("/content/fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"), url("/content/fonts/RobotoSlab-Regular.woff") format("woff"), url("/content/fonts/RobotoSlab-Regular.ttf") format("truetype"), url("/content/fonts/RobotoSlab-Regular.svg#Roboto Slab") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Roboto Slab"; src: url("/content/fonts/RobotoSlab-Regular.eot"); src: url("/content/fonts/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"), url("/content/fonts/RobotoSlab-Regular.woff") format("woff"), url("/content/fonts/RobotoSlab-Regular.ttf") format("truetype"), url("/content/fonts/RobotoSlab-Regular.svg#Roboto Slab") format("svg"); font-weight: 400; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Roboto Slab";
-  src: url("/content/fonts/RobotoSlab-Bold.eot");
-  src: url("/content/fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/RobotoSlab-Bold.woff") format("woff"), url("/content/fonts/RobotoSlab-Bold.ttf") format("truetype"), url("/content/fonts/RobotoSlab-Bold.svg#Roboto Slab") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Roboto Slab"; src: url("/content/fonts/RobotoSlab-Bold.eot"); src: url("/content/fonts/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/RobotoSlab-Bold.woff") format("woff"), url("/content/fonts/RobotoSlab-Bold.ttf") format("truetype"), url("/content/fonts/RobotoSlab-Bold.svg#Roboto Slab") format("svg"); font-weight: 700; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Gibson";
-  src: url("/content/fonts/Gibson-Light.eot");
-  src: url("/content/fonts/Gibson-Light.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Light.woff") format("woff"), url("/content/fonts/Gibson-Light.ttf") format("truetype"), url("/content/fonts/Gibson-Light.svg#Gibson") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Gibson"; src: url("/content/fonts/Gibson-Light.eot"); src: url("/content/fonts/Gibson-Light.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Light.woff") format("woff"), url("/content/fonts/Gibson-Light.ttf") format("truetype"), url("/content/fonts/Gibson-Light.svg#Gibson") format("svg"); font-weight: 100; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Gibson";
-  src: url("/content/fonts/Gibson-Regular.eot");
-  src: url("/content/fonts/Gibson-Regular.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Regular.woff") format("woff"), url("/content/fonts/Gibson-Regular.ttf") format("truetype"), url("/content/fonts/Gibson-Regular.svg#Gibson") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Gibson"; src: url("/content/fonts/Gibson-Regular.eot"); src: url("/content/fonts/Gibson-Regular.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Regular.woff") format("woff"), url("/content/fonts/Gibson-Regular.ttf") format("truetype"), url("/content/fonts/Gibson-Regular.svg#Gibson") format("svg"); font-weight: 400; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Gibson";
-  src: url("/content/fonts/Gibson-SemiBold.eot");
-  src: url("/content/fonts/Gibson-SemiBold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-SemiBold.woff") format("woff"), url("/content/fonts/Gibson-SemiBold.ttf") format("truetype"), url("/content/fonts/Gibson-SemiBold.svg#Gibson") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Gibson"; src: url("/content/fonts/Gibson-SemiBold.eot"); src: url("/content/fonts/Gibson-SemiBold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-SemiBold.woff") format("woff"), url("/content/fonts/Gibson-SemiBold.ttf") format("truetype"), url("/content/fonts/Gibson-SemiBold.svg#Gibson") format("svg"); font-weight: 500; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Gibson";
-  src: url("/content/fonts/Gibson-Bold.eot");
-  src: url("/content/fonts/Gibson-Bold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Bold.woff") format("woff"), url("/content/fonts/Gibson-Bold.ttf") format("truetype"), url("/content/fonts/Gibson-Bold.svg#Gibson") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Gibson"; src: url("/content/fonts/Gibson-Bold.eot"); src: url("/content/fonts/Gibson-Bold.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Gibson-Bold.woff") format("woff"), url("/content/fonts/Gibson-Bold.ttf") format("truetype"), url("/content/fonts/Gibson-Bold.svg#Gibson") format("svg"); font-weight: 700; font-style: normal; font-stretch: normal; }
 
-@font-face {
-  font-family: "Chalkduster";
-  src: url("/content/fonts/Chalkduster.eot");
-  src: url("/content/fonts/Chalkduster.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Chalkduster.woff") format("woff"), url("/content/fonts/Chalkduster.ttf") format("truetype"), url("/content/fonts/Chalkduster.svg#Chalkduster") format("svg");
-  font-weight: 100;
-  font-style: normal;
-  font-stretch: normal;
-}
+@font-face { font-family: "Chalkduster"; src: url("/content/fonts/Chalkduster.eot"); src: url("/content/fonts/Chalkduster.eot?#iefix") format("embedded-opentype"), url("/content/fonts/Chalkduster.woff") format("woff"), url("/content/fonts/Chalkduster.ttf") format("truetype"), url("/content/fonts/Chalkduster.svg#Chalkduster") format("svg"); font-weight: 100; font-style: normal; font-stretch: normal; }
 
-body {
-  background-color: white;
-  margin: 0;
-  padding: 0;
-  font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif;
-}
+header #logo { margin-top: 10px; }
+header #signup_nav { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: black; color: #e7e7e7; display: inline-block; vertical-align: top; padding: 5px 15px 8px 13px; border-radius: 0 0 6px 6px; }
+header #signup_nav a { font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: #e7e7e7; }
+header #signin_nav { background-color: #fdb913; display: inline-block; vertical-align: top; padding: 5px 15px 8px 13px; border-radius: 0 0 6px 6px; }
+header #signin_nav a { color: #221f20; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; }
+header li { list-style: none; text-decoration: none; }
+header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; }
+header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
+header nav.top-bar { background: white; overflow: visible; }
+header #big_black_box { height: 125px; margin-bottom: 10px; background-color: #221f20; }
+header #big_black_box h1 { padding: 8px; font: 5em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 
-.footer {
-  margin-top: 60px;
-  border-top: 2px solid #e7e7e7;
-  padding: 44px 0 0;
-}
-.footer li {
-  list-style: none;
-  font-size: 13px;
-  line-height: 24px;
-}
-.footer h5 {
-  text-transform: uppercase;
-  color: #221f20;
-  margin: 0 0 12px 15px;
-  font: 14px/18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-}
-.footer #footer-logo {
-  margin: 0 0 40px 3px;
-}
-.footer #copyright_text {
-  text-align: center;
-  font: 11px/13px Helvetica, Arial, sans-serif;
-  color: #b7b7b7;
-  border-top: 2px solid #e7e7e7;
-  padding: 15px 0 20px;
-  top: 10px;
-}
-.footer .social-networks {
-  overflow: hidden;
-  padding: 0 0 41px;
-}
-.footer .facebook {
-  float: left;
-  padding: 0 14px 0 0;
-}
-.footer .facebook a {
-  display: block;
-  text-indent: -9999px;
-  overflow: hidden;
-  width: 30px;
-  height: 30px;
-  background-image: url("/mysite/social-icons.png");
-  background-position: 0 -37px;
-}
-.footer .twitter a {
-  display: block;
-  text-indent: -9999px;
-  overflow: hidden;
-  width: 30px;
-  height: 30px;
-  background-image: url("/mysite/social-icons.png");
-  background-position: -44px -37px;
-}
+body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif; }
 
-#main h2 a {
-  color: #b7b7b7;
-  font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-}
+.footer { margin-top: 60px; border-top: 2px solid #e7e7e7; padding: 44px 0 0; }
+.footer li { list-style: none; font-size: 13px; line-height: 24px; }
+.footer h5 { text-transform: uppercase; color: #221f20; margin: 0 0 12px 15px; font: 14px/18px Gibson-SemiBold, Arial, Helvetica, sans-serif; }
+.footer #footer-logo { margin: 0 0 40px 3px; }
+.footer #copyright_text { text-align: center; font: 11px/13px Helvetica, Arial, sans-serif; color: #b7b7b7; border-top: 2px solid #e7e7e7; padding: 15px 0 20px; top: 10px; }
+.footer .social-networks { overflow: hidden; padding: 0 0 41px; }
+.footer .facebook { float: left; padding: 0 14px 0 0; }
+.footer .facebook a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: 0 -37px; }
+.footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: -44px -37px; }
+
+#main h2 a { color: #b7b7b7; font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; }

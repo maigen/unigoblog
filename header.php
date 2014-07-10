@@ -27,38 +27,77 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
 
-  	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+  		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php wp_head(); ?>
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-		<link href="/mysite/wp-content/themes/unigoblog/stylesheets/screen.css" rel="stylesheet"/>
+
+		<link href="/wp_maigen/wp-content/themes/JointsWP-master/stylesheets/screen.css" rel="stylesheet"/>
+
 	</head>
 
 	<body <?php body_class(); ?>>
 
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
-			<div id="container">
-
-				<header class="header" role="banner">
-
+			<div id="container_12">
+				<header class="header_container_12" role="banner">
 					<div id="inner-header" class="row">
-						<div class="large-12 columns">
-							<h1>
-								<?php wp_title(); ?> 
-							</h1>
-						</div>
 
-						 <?php get_template_part( 'partials/nav', 'offcanvas' ); ?>
+                        <div class="large-3 columns" id="logo">
+                            <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
+                        </div>
 
-						 <?php // get_template_part( 'partials/nav', 'topbar' ); ?>
+                        <div class="large-3 large-offset-5 columns" id="signup_nav">
+                            <!-- top-area -->
+                            <nav role="signup_nav" data-dropdown="drop1">  
+                                <?php
+                                
+                                $defaults = array(
+                                    'theme_location'  => '',
+                                    'menu'            => 'sign_up_nav',
+                                    'container'       => 'div',
+                                    'container_class' => '',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul><li id="item-id">become a member</li>%3$s</ul>','<ul id="drop1" data-dropdown-content class="f-dropdown">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => ''
+                                );
+
+                                wp_nav_menu( $defaults );
+                                ?>
+                            </nav>  
+                        </div>                              
+                        <div class="large-1 columns" id="signin_nav">
+                            <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
+                        </div>
+
+                        <div class="clear"></div>
+
+						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+
+						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
 
 						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
+
+                             <div class="large-12 columns" id="big_black_box">
+                                 <?php the_title('<h1>', '</h1>'); ?>
+                             </div>
+
+
 
 					</div> <!-- end #inner-header -->
 
