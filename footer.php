@@ -1,6 +1,6 @@
 					<footer class="footer" role="contentinfo">
 					
-						<div id="inner-footer" class="row clearfix">
+						<div class="row clearfix">
 
 							<div class="large-3 medium-3 columns">
 								<div id="footer-logo">
