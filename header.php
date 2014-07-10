@@ -33,7 +33,9 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
+
 		<link href="/wp_maigen/wp-content/themes/JointsWP-master/stylesheets/screen.css" rel="stylesheet"/>
+
 	</head>
 
 	<body <?php body_class(); ?>>
@@ -43,6 +45,7 @@
 			<div id="container_12">
 				<header class="header_container_12" role="banner">
 					<div id="inner-header" class="row">
+
                         <div class="large-3 columns" id="logo">
                             <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
                         </div>
