@@ -4,7 +4,7 @@
 
 							<div class="large-3 medium-3 columns">
 								<div id="footer-logo">
-									<img src="/mysite/unigoLogo.gif">
+									<img src="http://www.unigo.com/Content/CSS/Images/logo.gif">
 								</div>
 								<br>
 
