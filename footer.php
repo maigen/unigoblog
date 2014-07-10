@@ -117,12 +117,12 @@
 		    					</nav>
 		    				</div>
 		    				<div class="large-3 medium-3 columns">
-		    					<h5>Absolute Admin</h5>
+		    					<h5>Absolute Admit&#8482;</h5>
 								<nav role="navigation">
 		    						<?php
 
 										$defaults = array(
-											'menu'            => 'absolute_admin_footer',
+											'menu'            => 'absolute_admit_footer',
 											'container'       => 'div',
 											'menu_class'      => 'menu',
 											'echo'            => true,
