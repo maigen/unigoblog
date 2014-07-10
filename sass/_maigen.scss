@@ -13,7 +13,7 @@ header {
 
     #signup_nav {
         font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-        background-color: black;
+        background-color: $unigo_primary_color;
         color: #e7e7e7;
         @include nav_div_style
     }
@@ -102,7 +102,12 @@ header {
     }
 
     li {
+        list-style: none;
         color: $unigo_tertiary_color;
         font: 0.95em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    }
+    a:hover, :focus {
+        background: $background_white !important;
+        color: $unigo_tertiary_color !important;
     }
 }
