@@ -1,5 +1,9 @@
 header {
 
+    .contain-to-grid {
+      width: 100%;
+      background: transparent; }
+
     #logo {
         margin-top: 10px;
     }
@@ -21,7 +25,6 @@ header {
         }
         a {
             font: 1em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-            font-weight: 700;
             color: $white_color;
             display: block;
             text-align: center;
@@ -60,7 +63,6 @@ header {
         a {
                 color: #221f20;
                 font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-                font-weight: 700;
                 display: block;
                 text-align: center;
             }
@@ -83,7 +85,6 @@ header {
                     color: $unigo_tertiary_color;
                     font-size: 1em;
                     font-weight: 700;
-                    
                     &:hover {
                     background: $background_white;
                     }
@@ -93,6 +94,15 @@ header {
         &.top-bar {
             background: $background_white;
             overflow: visible;
+            ul.title-area {
+                li.toggle-topbar.menu-icon {
+                    background-color: $unigo_primary_color;
+                    a {
+                        color: #background_white;
+                        ;
+                    }
+                }
+            }
         }
     }
 
@@ -103,9 +113,8 @@ header {
         background-color: $unigo_primary_color;
         h1 {
             padding: 12px 10px 12px 10px;
-            font: 60px Gibson-Bold, Arial, Helvetica, sans-serif;
+            font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif;
             color: $white_color;
-            font-weight: 700;
         }
     }
 }
@@ -139,16 +148,15 @@ header {
 }
 
 .widget {
-    text-transform: uppercase;
     h4 {
-        font-weight: 700;
+        text-transform: uppercase;
         font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
     }
 
     li {
         list-style: none;
         color: $unigo_tertiary_color;
-        font: 0.95em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+        font: 0.95em Gibson-Regular, Arial, Helvetica, sans-serif;
     }
     a:hover, :focus {
         background: $background_white !important;

@@ -35,16 +35,6 @@ border-bottom-right-radius: $radius;
 
 
 //* FONTS
-@mixin declare-font-face($font-family, $path, $font-weight : normal, $font-style :normal, $font-stretch : normal) {
-	@font-face {
-		font-family: "#{$font-family}";
-		src: url("#{$path}.eot");
-		src: url("#{$path}.eot?#iefix") format("embedded-opentype"), url("#{$path}.woff") format("woff"), url("#{$path}.ttf") format("truetype"), url("#{$path}.svg##{$font-family}") format("svg");
-		font-weight: $font-weight;
-		font-style: $font-style;
-		font-stretch: $font-stretch;
-	}
-}
 
 
 
