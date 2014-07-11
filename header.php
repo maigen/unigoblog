@@ -103,6 +103,8 @@
                                             <h1>
                                                 Unigo Blog
                                             </h1>
+                                        <?php } elseif ( is_search() ) { ?>
+                                           <h1><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
 
                                         <?php } elseif (is_category()) { ?>
                                             <h1>
