@@ -46,11 +46,11 @@
 				<header class="header_container_12" role="banner">
 					<div id="inner-header" class="row collapse">
 
-                        <div class="large-3 columns" id="logo">
+                        <div class="large-3 columns medium-3 columns" id="logo">
                             <img src="/wp_maigen/unigoLogo.gif" width="158" height="72" />
                         </div>
 
-                        <div class="large-3 columns large-offset-5 columns" id="signup_nav">
+                        <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
                             <nav role="signup_nav">  
                                 <?php
@@ -82,7 +82,7 @@
                                 ?>
                             </nav>  
                         </div>                              
-                        <div class="large-1 columns" id="signin_nav">
+                        <div class="large-1 columns medium-1 columns" id="signin_nav">
                             <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
                         </div>
 
@@ -92,12 +92,10 @@
 
 						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
 
-
-
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
 
-                             <div class="large-12 columns" id="big_black_box">
+                             <div class="large-12 columns medium-12 columns" id="big_black_box">
                               
                                         <?php if (is_home()) { ?>
                                             <h1>

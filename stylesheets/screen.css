@@ -19,7 +19,7 @@ header #logo { margin-top: 10px; }
 header #signup_nav { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: #221f20; color: #e7e7e7; display: inline-block; vertical-align: top; padding: 0 3px 0 13px; border-radius: 0 0 6px 6px; }
 header #signup_nav nav { background-color: #221f20; display: block; vertical-align: top; margin: 0 3px 0 0; border-radius: 0 0 6px 6px; }
 header #signup_nav a { font: 1em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
-header #signup_nav .f-dropdown { max-width: 235px; margin-top: -4px; border: none; }
+header #signup_nav .f-dropdown { max-width: 220px; margin-top: -4px; border: none; }
 header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after { display: none; }
 header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
 header #signup_nav .f-dropdown li a { text-align: left; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
@@ -31,8 +31,8 @@ header nav .top-bar-section { margin-top: 15px; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 1em; font-weight: 700; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
 header nav.top-bar { background: white; overflow: visible; }
-header nav.top-bar ul.title-area li.toggle-topbar.menu-icon { background-color: #221f20; }
-header nav.top-bar ul.title-area li.toggle-topbar.menu-icon a { color: #bbaacc kground_white; }
+header nav.top-bar .toggle-topbar a { color: white; }
+header nav.top-bar ul.title-area li.toggle-topbar.menu-icon { background: url(/wp_maigen/arrow_images.jpg) no-repeat; background-size: 58% 95%; margin-top: 5px; }
 header #big_black_box { border-radius: 6px; padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
 header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 
