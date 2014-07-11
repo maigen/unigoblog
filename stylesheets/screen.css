@@ -18,7 +18,7 @@ header #logo { margin-top: 10px; }
 header #signup_nav { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: #221f20; color: #e7e7e7; display: inline-block; vertical-align: top; padding: 0 3px 0 13px; border-radius: 0 0 6px 6px; }
 header #signup_nav nav { background-color: #221f20; display: block; vertical-align: top; margin: 0 3px 0 0; border-radius: 0 0 6px 6px; }
 header #signup_nav a { font: 1em Gibson-SemiBold, Arial, Helvetica, sans-serif; font-weight: 700; color: white; display: block; text-align: center; }
-header #signup_nav .f-dropdown { max-width: 234px; margin-top: -4px; border: none; }
+header #signup_nav .f-dropdown { max-width: 235px; margin-top: -4px; border: none; }
 header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after { display: none; }
 header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
 header #signup_nav .f-dropdown li a { text-align: left; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
@@ -58,7 +58,7 @@ body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Re
 .footer #copyright_text { text-align: center; font: 11px/13px Helvetica, Arial, sans-serif; color: #b7b7b7; border-top: 2px solid #e7e7e7; padding: 15px 0 20px; top: 10px; }
 .footer .social-networks { overflow: hidden; padding: 0 0 41px; }
 .footer .facebook { float: left; padding: 0 14px 0 0; }
-.footer .facebook a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: 0 -37px; }
-.footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/mysite/social-icons.png"); background-position: -44px -37px; }
+.footer .facebook a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/wp_maigen/social-icons.png"); background-position: 0 -37px; }
+.footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/wp_maigen/social-icons.png"); background-position: -44px -37px; }
 
 #main h2 a { color: #b7b7b7; font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; }

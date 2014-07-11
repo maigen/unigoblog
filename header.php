@@ -47,7 +47,7 @@
 					<div id="inner-header" class="row collapse">
 
                         <div class="large-3 columns" id="logo">
-                            <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
+                            <img src="/wp_maigen/unigoLogo.gif" width="158" height="72" />
                         </div>
 
                         <div class="large-3 columns large-offset-5 columns" id="signup_nav">
@@ -92,7 +92,7 @@
 
 						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
 
-						 <?php // get_template_part( 'partials/nav', 'offcanvas-sidebar' ); ?>
+
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
