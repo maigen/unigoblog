@@ -7,39 +7,74 @@ header {
     @mixin nav-div-style {
         display: inline-block;
         vertical-align: top;
-        padding: 5px 15px 8px 13px;
+        padding: 0 3px 0 13px;
         border-radius: 0 0 6px 6px;
     }
 
     #signup_nav {
+        nav {
+            background-color: $unigo_primary_color;
+            display: block;
+            vertical-align: top;
+            margin: 0 3px 0 0;
+            border-radius: 0 0 6px 6px;
+        }
+        a {
+            font: 1em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            color: $white_color;
+            display: block;
+            text-align: center;
+        }
+        .f-dropdown {
+            max-width: 234px;
+            margin-top: -4px;
+            border: none;
+            &:before, &:after {
+                display: none;
+            }
+            li {
+                padding: 10px 0 0 25px;
+                a {
+                    text-align: left;
+                    font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+                    color: $white_color;
+                }
+            }
+        }
         font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
         background-color: $unigo_primary_color;
         color: #e7e7e7;
         @include nav_div_style
     }
 
-    #signup_nav a {
-        font: 0.88em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-        color: #e7e7e7;
+    #hover1 li {
+        &:hover {
+            background: $unigo_primary_color;
+        }
     }
 
     #signin_nav {
-        background-color: #fdb913;
-        @include nav-div-style
+        background-color: $unigo_secondary_color;
+        border-radius: 0 0 6px 6px;
+        a {
+                color: #221f20;
+                font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                display: block;
+                text-align: center;
+            }
     }
 
-    #signin_nav a {
-        color: #221f20;
-        font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-    }
-
-    li {
+    li { //primary nav bar list items
         list-style: none;
         text-decoration: none;
+        background-color: $unigo_primary_color;
     }
 
     nav {
         .top-bar-section {
+            margin-top: 15px;
             ul {
                 li:not(.has-form) a:not(.button) {
                     padding: 0 15px;
