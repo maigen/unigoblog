@@ -1,5 +1,5 @@
 <div class="large-12 columns">
-	<div class="contain-to-grid sticky">
+	<div class="contain-to-grid">
 	
 	<!-- If you want to use the more traditional "fixed" navigation.
 		 simply replace "sticky" with "fixed" -->
