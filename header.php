@@ -98,7 +98,47 @@
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
 
                              <div class="large-12 columns" id="big_black_box">
-                                 <?php the_title('<h1>', '</h1>'); ?>
+                              
+                                        <?php if (is_home()) { ?>
+                                            <h1>
+                                                Unigo Blog
+                                            </h1>
+
+                                        <?php } elseif (is_category()) { ?>
+                                            <h1>
+                                                <span><?php _e("Topic:", "jointstheme"); ?></span> <?php single_cat_title(); ?>
+                                            </h1>
+                                        
+                                        <?php } elseif (is_tag()) { ?> 
+                                            <h1>
+                                                <span><?php _e("Tagged:", "jointstheme"); ?></span> <?php single_tag_title(); ?>
+                                            </h1>
+                                        
+                                        <?php } elseif (is_author()) { 
+                                            global $post;
+                                            $author_id = $post->post_author;
+                                        ?>
+                                            <h1>
+
+                                                <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
+
+                                            </h1>
+                                        <?php } elseif (is_day()) { ?>
+                                            <h1>
+                                                <span><?php _e("Daily Archives:", "jointstheme"); ?></span> <?php the_time('l, F j, Y'); ?>
+                                            </h1>
+                        
+                                        <?php } elseif (is_month()) { ?>
+                                            <h1>
+                                                <span><?php _e("Monthly Archives:", "jointstheme"); ?></span> <?php the_time('F Y'); ?>
+                                            </h1>
+                                    
+                                        <?php } elseif (is_year()) { ?>
+                                            <h1>
+                                                <span><?php _e("Yearly Archives:", "jointstheme"); ?></span> <?php the_time('Y'); ?>
+                                            </h1>
+                                        <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
+                                
                              </div>
 
 					</div> <!-- end #inner-header -->

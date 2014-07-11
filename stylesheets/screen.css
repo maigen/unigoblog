@@ -36,6 +36,8 @@ header nav.top-bar ul.title-area li.toggle-topbar.menu-icon a { color: #bbaacc k
 header #big_black_box { border-radius: 6px; padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
 header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 
+#content .article-header title, #content .article-header a, #content .article-header h3 { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: transparent; color: #221f20; }
+
 .entry-content { padding-top: 28px; }
 
 #s { border-radius: 6px; }

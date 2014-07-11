@@ -118,6 +118,15 @@ header {
         }
     }
 }
+#content {
+    .article-header {
+        title, a, h3 {
+            font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            background-color: transparent;
+            color: $unigo_primary_color;
+        }
+    }
+}
 
 .entry-content {
     padding-top: 28px;
