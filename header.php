@@ -44,15 +44,15 @@
 		<div class="inner-wrap">
 			<div id="container_12">
 				<header class="header_container_12" role="banner">
-					<div id="inner-header" class="row">
+					<div id="inner-header" class="row collapse">
 
                         <div class="large-3 columns" id="logo">
                             <img src="http://www.unigo.com/Content/CSS/Images/logo.gif" width="158" height="72" />
                         </div>
 
-                        <div class="large-3 large-offset-5 columns" id="signup_nav">
+                        <div class="large-3 columns large-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
-                            <nav role="signup_nav" data-dropdown="drop1">  
+                            <nav role="signup_nav">  
                                 <?php
                                 
                                 $defaults = array(
@@ -69,7 +69,11 @@
                                     'after'           => '',
                                     'link_before'     => '',
                                     'link_after'      => '',
-                                    'items_wrap'      => '<ul><li id="item-id">become a member</li>%3$s</ul>','<ul id="drop1" data-dropdown-content class="f-dropdown">%3$s</ul>',
+                                    'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
+                                                            <ul id="hover1" class="f-dropdown" data-dropdown-content>
+                                                                <li></li>
+                                                                %3$s
+                                                                </ul>',
                                     'depth'           => 0,
                                     'walker'          => ''
                                 );
