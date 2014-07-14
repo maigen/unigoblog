@@ -1,3 +1,7 @@
+.off-canvas-wrap {
+    background-color: $unigo_body_background;
+}
+
 header {
 
     .contain-to-grid {
@@ -24,7 +28,7 @@ header {
             border-radius: 0 0 6px 6px;
         }
         a {
-            font: 1em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
             color: $white_color;
             display: block;
             text-align: center;
@@ -83,7 +87,7 @@ header {
                     line-height: 45px;
                     background: $background_white;
                     color: $unigo_tertiary_color;
-                    font-size: 1em;
+                    font-size: 0.88em;
                     font-weight: 700;
                     &:hover {
                     background: $background_white;
@@ -117,6 +121,16 @@ header {
             color: $white_color;
         }
     }
+}
+
+.inner-wrap {
+    background-color: white;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
 }
 
 
