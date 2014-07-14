@@ -119,9 +119,7 @@
                                             $author_id = $post->post_author;
                                         ?>
                                             <h1>
-
                                                 <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
-
                                             </h1>
                                         <?php } elseif (is_day()) { ?>
                                             <h1>

@@ -33,7 +33,7 @@ header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { backgrou
 header nav.top-bar { background: white; overflow: visible; }
 header nav.top-bar .toggle-topbar a { color: white; }
 header nav.top-bar ul.title-area li.toggle-topbar.menu-icon { background: url(/wp_maigen/arrow_images.jpg) no-repeat; background-size: 58% 95%; margin-top: 5px; }
-header #big_black_box { border-radius: 6px; padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
+header #big_black_box { padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
 header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 
 #content .article-header title, #content .article-header a, #content .article-header h3 { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: transparent; color: #221f20; }
