@@ -9,7 +9,7 @@
 				<!-- Title Area -->
 
 				<li class="toggle-topbar menu-icon">
-					<a href="#"></a>
+					<a href="#">Menu</a>
 				</li>
 			</ul>		
 			<section class="top-bar-section">

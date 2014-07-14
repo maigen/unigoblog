@@ -12,7 +12,7 @@ header {
         vertical-align: top;
         border-radius: 0 0 6px 6px;
         a {
-            padding: 10px;
+            padding: 0 0 5px 0;
         }
     }
 
@@ -21,7 +21,6 @@ header {
             @include nav_div_style;
             background-color: $unigo_primary_color;
             display: block;
-            // padding: 0 3px 0 0;
             margin: 0 3px 0 -3px;
         }
         a {
@@ -92,18 +91,8 @@ header {
             }
         }
         &.top-bar {
-            .toggle-topbar a {
-                color: white;
-            }
             background: $background_white;
             overflow: visible;
-            ul.title-area {
-                li.toggle-topbar.menu-icon {
-                    background: url(/wp_unigoblog/arrow_images.jpg) no-repeat;
-                    background-size: 58% 95%;
-                    margin-top: 5px;
-                }
-            }
         }
     }
 
@@ -117,6 +106,21 @@ header {
             color: $white_color;
         }
     }
+}
+
+#background-container {
+    background-color: #b7b7b7;
+}
+
+.inner-wrap {
+    background-color: $background_white;
+    max-width: 1086px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px 0 30px;
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
 }
 
 #content {

@@ -41,104 +41,105 @@
 	<body <?php body_class(); ?>>
 
 	<div class="off-canvas-wrap" data-offcanvas>
-		<div class="inner-wrap">
-			<div id="container_12">
-				<header class="header_container_12" role="banner">
-					<div id="inner-header" class="row collapse">
+        <div id="background-container">
+    		<div class="inner-wrap">
+    			<div id="container_12">
+    				<header class="header_container_12" role="banner">
+    					<div id="inner-header" class="row collapse">
 
-                        <div class="large-3 columns medium-3 columns" id="logo">
-                            <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
-                        </div>
+                            <div class="large-3 columns medium-3 columns" id="logo">
+                                <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
+                            </div>
 
-                        <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
-                            <!-- top-area -->
-                            <nav role="signup_nav">  
-                                <?php
-                                
-                                $defaults = array(
-                                    'theme_location'  => '',
-                                    'menu'            => 'sign_up_nav',
-                                    'container'       => 'div',
-                                    'container_class' => '',
-                                    'container_id'    => '',
-                                    'menu_class'      => 'menu',
-                                    'menu_id'         => '',
-                                    'echo'            => true,
-                                    'fallback_cb'     => 'wp_page_menu',
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
-                                                            <ul id="hover1" class="f-dropdown" data-dropdown-content>
-                                                                <li></li>
-                                                                %3$s
-                                                                </ul>',
-                                    'depth'           => 0,
-                                    'walker'          => ''
-                                );
-
-                                wp_nav_menu( $defaults );
-                                ?>
-                            </nav>  
-                        </div>                              
-                        <div class="large-1 columns medium-1 columns" id="signin_nav">
-                            <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
-                        </div>
-
-                        <div class="clear"></div>
-
-						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
-
-						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
-
-						<!-- You only need to use one of the above navigations.
-							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
-
-                             <div class="large-12 columns medium-12 columns" id="big_black_box">
-                              
-                                        <?php if (is_home()) { ?>
-                                            <h1>
-                                                Unigo Blog
-                                            </h1>
-                                        <?php } elseif ( is_search() ) { ?>
-                                           <h1><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
-
-                                        <?php } elseif (is_category()) { ?>
-                                            <h1>
-                                                <span><?php _e("Topic:", "jointstheme"); ?></span> <?php single_cat_title(); ?>
-                                            </h1>
-                                        
-                                        <?php } elseif (is_tag()) { ?> 
-                                            <h1>
-                                                <span><?php _e("Tagged:", "jointstheme"); ?></span> <?php single_tag_title(); ?>
-                                            </h1>
-                                        
-                                        <?php } elseif (is_author()) { 
-                                            global $post;
-                                            $author_id = $post->post_author;
-                                        ?>
-                                            <h1>
-                                                <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
-                                            </h1>
-                                        <?php } elseif (is_day()) { ?>
-                                            <h1>
-                                                <span><?php _e("Daily Archives:", "jointstheme"); ?></span> <?php the_time('l, F j, Y'); ?>
-                                            </h1>
-                        
-                                        <?php } elseif (is_month()) { ?>
-                                            <h1>
-                                                <span><?php _e("Monthly Archives:", "jointstheme"); ?></span> <?php the_time('F Y'); ?>
-                                            </h1>
+                            <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
+                                <!-- top-area -->
+                                <nav role="signup_nav">  
+                                    <?php
                                     
-                                        <?php } elseif (is_year()) { ?>
-                                            <h1>
-                                                <span><?php _e("Yearly Archives:", "jointstheme"); ?></span> <?php the_time('Y'); ?>
-                                            </h1>
-                                        <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
-                                
-                             </div>
+                                    $defaults = array(
+                                        'theme_location'  => '',
+                                        'menu'            => 'sign_up_nav',
+                                        'container'       => 'div',
+                                        'container_class' => '',
+                                        'container_id'    => '',
+                                        'menu_class'      => 'menu',
+                                        'menu_id'         => '',
+                                        'echo'            => true,
+                                        'fallback_cb'     => 'wp_page_menu',
+                                        'before'          => '',
+                                        'after'           => '',
+                                        'link_before'     => '',
+                                        'link_after'      => '',
+                                        'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
+                                                                <ul id="hover1" class="f-dropdown" data-dropdown-content>
+                                                                    <li></li>
+                                                                    %3$s
+                                                                    </ul>',
+                                        'depth'           => 0,
+                                        'walker'          => ''
+                                    );
 
-					</div> <!-- end #inner-header -->
+                                    wp_nav_menu( $defaults );
+                                    ?>
+                                </nav>  
+                            </div>                              
+                            <div class="large-1 columns medium-1 columns" id="signin_nav">
+                                <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
+                            </div>
 
-				</header> <!-- end header -->
+                            <div class="clear"></div>
+
+    						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+
+    						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+
+    						<!-- You only need to use one of the above navigations.
+    							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
+
+                                 <div class="large-12 columns medium-12 columns" id="big_black_box">
+                                  
+                                            <?php if (is_home()) { ?>
+                                                <h1>
+                                                    Unigo Blog
+                                                </h1>
+                                            <?php } elseif ( is_search() ) { ?>
+                                               <h1><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
+
+                                            <?php } elseif (is_category()) { ?>
+                                                <h1>
+                                                    <span><?php _e("Topic:", "jointstheme"); ?></span> <?php single_cat_title(); ?>
+                                                </h1>
+                                            
+                                            <?php } elseif (is_tag()) { ?> 
+                                                <h1>
+                                                    <span><?php _e("Tagged:", "jointstheme"); ?></span> <?php single_tag_title(); ?>
+                                                </h1>
+                                            
+                                            <?php } elseif (is_author()) { 
+                                                global $post;
+                                                $author_id = $post->post_author;
+                                            ?>
+                                                <h1>
+                                                    <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
+                                                </h1>
+                                            <?php } elseif (is_day()) { ?>
+                                                <h1>
+                                                    <span><?php _e("Daily Archives:", "jointstheme"); ?></span> <?php the_time('l, F j, Y'); ?>
+                                                </h1>
+                            
+                                            <?php } elseif (is_month()) { ?>
+                                                <h1>
+                                                    <span><?php _e("Monthly Archives:", "jointstheme"); ?></span> <?php the_time('F Y'); ?>
+                                                </h1>
+                                        
+                                            <?php } elseif (is_year()) { ?>
+                                                <h1>
+                                                    <span><?php _e("Yearly Archives:", "jointstheme"); ?></span> <?php the_time('Y'); ?>
+                                                </h1>
+                                            <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
+                                    
+                                 </div>
+
+    					</div> <!-- end #inner-header -->
+
+    				</header> <!-- end header -->
