@@ -62,7 +62,7 @@ header {
         border-radius: 0 0 6px 6px;
         a {
                 color: #221f20;
-                font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+                font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
                 display: block;
                 text-align: center;
             }
@@ -141,7 +141,19 @@ header {
     border-radius: 6px;
 }
 
-.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content {
+@mixin button-style {
+    background-color: $unigo_secondary_color;
+    color: $unigo_primary_color;
+    font-weight: 700;
+    border: solid 2px $unigo_secondary_color;
+    border-radius: 6px;
+    &:hover, :focus, :active, :visited {
+        background-color: $background_white;
+        color: $unigo_primary_color;
+    }
+}
+
+.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content, input.button#submit {
     background-color: $unigo_secondary_color;
     color: $unigo_primary_color;
     font-weight: 700;

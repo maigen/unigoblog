@@ -25,7 +25,7 @@ header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
 header #signup_nav .f-dropdown li a { text-align: left; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 header #hover1 li:hover { background: #221f20; }
 header #signin_nav { background-color: #fdb913; border-radius: 0 0 6px 6px; }
-header #signin_nav a { color: #221f20; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; display: block; text-align: center; }
+header #signin_nav a { color: #221f20; font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; display: block; text-align: center; }
 header li { list-style: none; text-decoration: none; background-color: #221f20; }
 header nav .top-bar-section { margin-top: 15px; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 0.88em; font-weight: 700; }
@@ -44,8 +44,8 @@ header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiB
 
 .respond-form textarea, input, li.comment { border-radius: 6px; }
 
-.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content { background-color: #fdb913; color: #221f20; font-weight: 700; border: solid 2px #fdb913; border-radius: 6px; }
-.button:hover, .button :focus, .button :active, .button :visited, #content .commentlist .comment-reply-link:hover, #content .commentlist .comment-reply-link :focus, #content .commentlist .comment-reply-link :active, #content .commentlist .comment-reply-link :visited, a.comment-reply-link:hover, a.comment-reply-link :focus, a.comment-reply-link :active, a.comment-reply-link :visited, .comment-content:hover, .comment-content :focus, .comment-content :active, .comment-content :visited { background-color: white; color: #221f20; }
+.button, #content .commentlist .comment-reply-link, a.comment-reply-link, .comment-content, input.button#submit { background-color: #fdb913; color: #221f20; font-weight: 700; border: solid 2px #fdb913; border-radius: 6px; }
+.button:hover, .button :focus, .button :active, .button :visited, #content .commentlist .comment-reply-link:hover, #content .commentlist .comment-reply-link :focus, #content .commentlist .comment-reply-link :active, #content .commentlist .comment-reply-link :visited, a.comment-reply-link:hover, a.comment-reply-link :focus, a.comment-reply-link :active, a.comment-reply-link :visited, .comment-content:hover, .comment-content :focus, .comment-content :active, .comment-content :visited, input.button#submit:hover, input.button#submit :focus, input.button#submit :active, input.button#submit :visited { background-color: white; color: #221f20; }
 
 #sidebar1 { padding-left: 35px; }
 
