@@ -24,7 +24,7 @@ header {
             margin: 0 3px 0 -3px;
         }
         a {
-            font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
             color: $white_color;
             display: block;
             text-align: center;
@@ -40,13 +40,11 @@ header {
                 padding: 10px 0 0 25px;
                 a {
                     text-align: left;
-                    font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-                    color: $white_color;
+                    font: 16px Gibson-Regular, Arial, Helvetica, sans-serif;
+                  color: $unigo_secondary_color;
                 }
             }
         }
-        font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-        color: #e7e7e7;
     }
 
     #hover1 li {
@@ -61,7 +59,7 @@ header {
         text-align: center;
         a {
                 color: #221f20;
-                font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+                font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
                 display: inline-block;
                 white-space: nowrap;
             }

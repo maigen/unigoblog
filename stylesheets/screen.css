@@ -16,18 +16,17 @@
 
 header .contain-to-grid { width: 100%; background: transparent; }
 header #logo { margin-top: 10px; }
-header #signup_nav { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: #e7e7e7; }
 header #signup_nav nav { vertical-align: top; border-radius: 0 0 6px 6px; background-color: #221f20; display: block; margin: 0 3px 0 -3px; }
 header #signup_nav nav a { padding: 0 0 5px 0; }
-header #signup_nav a { font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
+header #signup_nav a { font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
 header #signup_nav .f-dropdown { max-width: 234px; margin-top: -4px; border: none; }
 header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after { display: none; }
 header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
-header #signup_nav .f-dropdown li a { text-align: left; font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+header #signup_nav .f-dropdown li a { text-align: left; font: 16px Gibson-Regular, Arial, Helvetica, sans-serif; color: #fdb913; }
 header #hover1 li:hover { background: #221f20; }
 header #signin_nav { background-color: #fdb913; vertical-align: top; border-radius: 0 0 6px 6px; text-align: center; }
 header #signin_nav a { padding: 0 0 5px 0; }
-header #signin_nav a { color: #221f20; font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; display: inline-block; white-space: nowrap; }
+header #signin_nav a { color: #221f20; font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; display: inline-block; white-space: nowrap; }
 header li { list-style: none; text-decoration: none; background-color: #221f20; }
 header nav .top-bar-section { margin-top: 15px; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 0.88em; font-weight: 700; }
