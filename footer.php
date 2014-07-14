@@ -4,7 +4,7 @@
 
 							<div class="large-3 medium-3 columns">
 								<div id="footer-logo">
-									<img src="/wp_maigen/unigoLogo.gif">
+									<img src="/wp_unigoblog/unigoLogo.gif">
 								</div>
 								<br>
 

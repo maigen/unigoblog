@@ -34,7 +34,7 @@
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
 
-		<link href="/wp_maigen/wp-content/themes/JointsWP-master/stylesheets/screen.css" rel="stylesheet"/>
+		<link href="/wp_unigoblog/wp-content/themes/unigoblog/stylesheets/screen.css" rel="stylesheet"/>
 
 	</head>
 
@@ -47,7 +47,7 @@
 					<div id="inner-header" class="row collapse">
 
                         <div class="large-3 columns medium-3 columns" id="logo">
-                            <img src="/wp_maigen/unigoLogo.gif" width="158" height="72" />
+                            <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
                         </div>
 
                         <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">

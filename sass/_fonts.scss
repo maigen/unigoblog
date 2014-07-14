@@ -12,14 +12,14 @@
     }
 }
 
-@include declare-font-face("Open Sans Condensed", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/OpenSans-CondensedLight", 300);
-@include declare-font-face("Roboto Slab", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/RobotoSlab-Regular", 400);
-@include declare-font-face("Roboto Slab", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/RobotoSlab-Bold", 700);
-@include declare-font-face("Gibson-Light", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/Gibson-Light", 100);
-@include declare-font-face("Gibson-Regular", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/Gibson-Regular", 400);
-@include declare-font-face("Gibson-SemiBold", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/Gibson-SemiBold", 500);
-@include declare-font-face("Gibson-Bold", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/Gibson-Bold", 700);
-@include declare-font-face("Chalkduster", "/wp_maigen/wp-content/themes/JointsWP-master/fonts/Chalkduster", 100);
+@include declare-font-face("Open Sans Condensed", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/OpenSans-CondensedLight", 300);
+@include declare-font-face("Roboto Slab", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/RobotoSlab-Regular", 400);
+@include declare-font-face("Roboto Slab", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/RobotoSlab-Bold", 700);
+@include declare-font-face("Gibson-Light", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/Gibson-Light", 100);
+@include declare-font-face("Gibson-Regular", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/Gibson-Regular", 400);
+@include declare-font-face("Gibson-SemiBold", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/Gibson-SemiBold", 500);
+@include declare-font-face("Gibson-Bold", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/Gibson-Bold", 700);
+@include declare-font-face("Chalkduster", "/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster", 100);
 
 $font_stack_base: "Gibson", Arial, Helvetica, sans-serif; 
 $font_stack_headings: "Gibson", "HelveticaNeue-CondensedBold", "Helvetica Neue", Helvetica, Arial;
