@@ -68,3 +68,33 @@ body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Re
 .footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/wp_unigoblog/social-icons.png"); background-position: -44px -37px; }
 
 #main h2 a { color: #b7b7b7; font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; }
+
+#top_link_list { margin-bottom: 2px; }
+
+/* DROPDOWN NAV */
+.cbp-hrmenu { width: 100%; margin-top: 10px; }
+
+/* general ul style */
+.cbp-hrmenu ul { margin: 0; padding: 0; list-style-type: none; float: left; width: 33%; }
+
+/* first level ul style */
+.cbp-hrmenu > ul { width: 100%; max-width: 60em; margin: 0 auto; padding: 0 1.875em; }
+
+.cbp-hrmenu .cbp-hrsub-inner { width: 100%; max-width: 58em; margin: 0 auto; /*padding: 1em 1.875em;*/ }
+
+.cbp-hrmenu > ul > li { display: inline-block; margin-left: -5px; }
+
+.cbp-hrmenu > ul > li > a { font-family: Helvetica, Arial, sans-serif; font-size: 0.95em; font-weight: 700; text-transform: uppercase; padding: 1.1em 1em; color: #47a3da; display: inline-block; text-decoration: none; cursor: default; }
+
+.cbp-hrmenu > ul > li > a:hover { color: #fff; background: #221f20; }
+
+/* sub-menu */
+.cbp-hrsub { display: none; padding-bottom: 2em; position: absolute; width: 100%; left: 0; z-index: 3333333; }
+
+ul li:hover .cbp-hrsub { color: #fff; display: block; background: #221f20; }
+
+.cbp-hrmenu > ul > li:hover a { color: #fff; display: block; background: #221f20; z-index: 3333333333; }
+
+.cbp-hrmenu .cbp-hrsub-inner > div a { padding: 1em 0em 0; color: #fff; font-size: 0.90em; line-height: 1em; text-decoration: none; text-transform: uppercase; }
+
+.cbp-hrsub-inner > div a:hover { text-decoration: underline; }
