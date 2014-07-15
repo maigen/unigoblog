@@ -46,10 +46,12 @@
 				<header class="header_container_12" role="banner">
 					<div id="inner-header" class="row collapse">
 
+                        <!-- LOGO -->
                         <div class="large-3 columns medium-3 columns" id="logo">
                             <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
                         </div>
 
+                        <!-- "BECOME A MEMBER" DROPDOWN -->
                         <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
                             <!-- top-area -->
                             <nav role="signup_nav">  
@@ -81,16 +83,25 @@
                                 wp_nav_menu( $defaults );
                                 ?>
                             </nav>  
-                        </div>                              
+                        </div> 
+
+                        <!-- "SIGN IN" BUTTON  -->
                         <div class="large-1 columns medium-1 columns" id="signin_nav">
                             <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
                         </div>
 
+
                         <div class="clear"></div>
 
-						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
 
-						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+
+						<?php //get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+
+
+                        <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->
+
+						<?php get_template_part( 'partials/nav', 'topbar' ); ?>
+
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
