@@ -375,3 +375,9 @@ ul li:hover .cbp-hrsub {
 .cbp-hrsub-inner > div a:hover {
   text-decoration: underline;
 }
+
+#nav_header_box {
+  padding: 0px;
+  margin: 0px;
+  background-color: #221f20;
+}

@@ -100,11 +100,14 @@
 
                         <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->
 
-						<?php get_template_part( 'partials/nav', 'topbar' ); ?>
+						
 
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
+                             <div class="large-12 columns medium-12 columns" id="nav_header_box">
+                                <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+                             </div>
 
                              <div class="large-12 columns medium-12 columns" id="big_black_box">
                               

@@ -1,5 +1,5 @@
-<div class="medium-12 columns" id="top_link_list">
-	<div class="contain-to-grid">
+<div class="large-12 columns medium-12 columns" id="top_link_list">
+
 
 		<nav id="cbp-hrmenu" class="cbp-hrmenu">
 		            <ul>
@@ -81,7 +81,7 @@
 		                </li>           
 		            </ul>
 		        </nav>
-	</div>
+
 </div>
 
 

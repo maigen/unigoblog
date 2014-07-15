@@ -69,6 +69,7 @@ body {
 
 #top_link_list {
 	margin-bottom: 1px;
+
 }
 
 
@@ -164,3 +165,8 @@ ul li:hover .cbp-hrsub {
   text-decoration: underline;
 }
 
+#nav_header_box {
+    padding: 0px;
+    margin: 0px;
+    background-color: $unigo_primary_color;
+}
