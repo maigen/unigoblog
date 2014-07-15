@@ -16,27 +16,28 @@
 
 header .contain-to-grid { width: 100%; background: transparent; }
 header #logo { margin-top: 10px; }
-header #signup_nav { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: #e7e7e7; }
 header #signup_nav nav { vertical-align: top; border-radius: 0 0 6px 6px; background-color: #221f20; display: block; margin: 0 3px 0 -3px; }
-header #signup_nav nav a { padding: 10px; }
-header #signup_nav a { font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
+header #signup_nav nav a { padding: 0 0 5px 0; }
+header #signup_nav a { font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
 header #signup_nav .f-dropdown { max-width: 234px; margin-top: -4px; border: none; }
 header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after { display: none; }
 header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
-header #signup_nav .f-dropdown li a { text-align: left; font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+header #signup_nav .f-dropdown li a { text-align: left; font: 16px Gibson-Regular, Arial, Helvetica, sans-serif; color: #fdb913; }
 header #hover1 li:hover { background: #221f20; }
 header #signin_nav { background-color: #fdb913; vertical-align: top; border-radius: 0 0 6px 6px; text-align: center; }
-header #signin_nav a { padding: 10px; }
-header #signin_nav a { color: #221f20; font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif; display: inline-block; white-space: nowrap; }
+header #signin_nav a { padding: 0 0 5px 0; }
+header #signin_nav a { color: #221f20; font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; display: inline-block; white-space: nowrap; }
 header li { list-style: none; text-decoration: none; background-color: #221f20; }
 header nav .top-bar-section { margin-top: 15px; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 0.88em; font-weight: 700; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
 header nav.top-bar { background: white; overflow: visible; }
-header nav.top-bar .toggle-topbar a { color: white; }
-header nav.top-bar ul.title-area li.toggle-topbar.menu-icon { background: url(/wp_unigoblog/arrow_images.jpg) no-repeat; background-size: 58% 95%; margin-top: 5px; }
 header #big_black_box { padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
 header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+
+#background-container { background-color: #b7b7b7; }
+
+.inner-wrap { background-color: white; max-width: 1086px; margin-left: auto; margin-right: auto; padding: 0 30px 0 30px; border-left: 1px solid #666; border-right: 1px solid #666; border-bottom: 1px solid #666; }
 
 #content .article-header title, #content .article-header a, #content .article-header h3 { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: transparent; color: #221f20; }
 
@@ -53,7 +54,7 @@ header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiB
 
 .widget h4 { text-transform: uppercase; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; }
 .widget li { list-style: none; color: #309bd7; font: 0.95em Gibson-Regular, Arial, Helvetica, sans-serif; }
-.widget a:hover, .widget :focus { background: white !important; color: #309bd7 !important; }
+.widget a:hover, .widget :focus, .widget :active, .widget :visited { background: white !important; color: #221f20 !important; }
 
 body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif; }
 
@@ -68,3 +69,33 @@ body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Re
 .footer .twitter a { display: block; text-indent: -9999px; overflow: hidden; width: 30px; height: 30px; background-image: url("/wp_unigoblog/social-icons.png"); background-position: -44px -37px; }
 
 #main h2 a { color: #b7b7b7; font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; }
+
+#top_link_list { margin-bottom: 2px; }
+
+/* DROPDOWN NAV */
+.cbp-hrmenu { width: 100%; margin-top: 10px; }
+
+/* general ul style */
+.cbp-hrmenu ul { margin: 0; padding: 0; list-style-type: none; float: left; width: 33%; }
+
+/* first level ul style */
+.cbp-hrmenu > ul { width: 100%; max-width: 60em; margin: 0 auto; padding: 0 1.875em; }
+
+.cbp-hrmenu .cbp-hrsub-inner { width: 100%; max-width: 58em; margin: 0 auto; /*padding: 1em 1.875em;*/ }
+
+.cbp-hrmenu > ul > li { display: inline-block; margin-left: -5px; }
+
+.cbp-hrmenu > ul > li > a { font-family: Helvetica, Arial, sans-serif; font-size: 0.95em; font-weight: 700; text-transform: uppercase; padding: 1.1em 1em; color: #47a3da; display: inline-block; text-decoration: none; cursor: default; }
+
+.cbp-hrmenu > ul > li > a:hover { color: #fff; background: #221f20; }
+
+/* sub-menu */
+.cbp-hrsub { display: none; padding-bottom: 2em; position: absolute; width: 100%; left: 0; z-index: 3333333; }
+
+ul li:hover .cbp-hrsub { color: #fff; display: block; background: #221f20; }
+
+.cbp-hrmenu > ul > li:hover a { color: #fff; display: block; background: #221f20; z-index: 3333333333; }
+
+.cbp-hrmenu .cbp-hrsub-inner > div a { padding: 1em 0em 0; color: #fff; font-size: 0.90em; line-height: 1em; text-decoration: none; text-transform: uppercase; }
+
+.cbp-hrsub-inner > div a:hover { text-decoration: underline; }
