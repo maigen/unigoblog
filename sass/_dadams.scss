@@ -68,8 +68,7 @@ body {
 }
 
 #top_link_list {
-	margin-bottom: 1px;
-
+	background-color: white;
 }
 
 
@@ -97,6 +96,7 @@ body {
   max-width: 60em;
   margin: 0 auto;
   padding: 0 1.875em;
+  background-color: white;
 }
 
 .cbp-hrmenu .cbp-hrsub-inner {
@@ -109,6 +109,7 @@ body {
 .cbp-hrmenu > ul > li {
   display: inline-block;
   margin-left: -5px;
+  background-color: white;
 }
 
 .cbp-hrmenu > ul > li > a {
@@ -167,6 +168,7 @@ ul li:hover .cbp-hrsub {
 
 #nav_header_box {
     padding: 0px;
-    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 1px;
     background-color: $unigo_primary_color;
 }
