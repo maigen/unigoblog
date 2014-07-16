@@ -141,7 +141,8 @@
 			               
 			                <div class="large-12 medium-12 columns" id="copyright_text">		
 								<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
-							</div>		
+							</div>	
+								
 
 					</footer> <!-- end .footer -->
 				</div> <!-- end #container -->
@@ -151,5 +152,6 @@
 				<!-- all js scripts are loaded in library/joints.php -->
 				<?php wp_footer(); ?>
 	</body>
+
 
 </html> <!-- end page -->

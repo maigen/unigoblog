@@ -33,8 +33,9 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-
+       
 		<link href="/wp_unigoblog/wp-content/themes/unigoblog/stylesheets/screen.css" rel="stylesheet"/>
+
 
 	</head>
 
@@ -154,5 +155,6 @@
                              </div>
 
 					</div> <!-- end #inner-header -->
+
 
 				</header> <!-- end header -->
