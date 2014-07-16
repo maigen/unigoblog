@@ -33,7 +33,7 @@
 
 		<!-- Drop Google Analytics here -->
 		<!-- end analytics -->
-       
+
 		<link href="/wp_unigoblog/wp-content/themes/unigoblog/stylesheets/screen.css" rel="stylesheet"/>
 
 
@@ -95,8 +95,6 @@
                         <div class="clear"></div>
 
 
-
-						<?php //get_template_part( 'partials/nav', 'offcanvas' ); ?> 
 
 
                         <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->

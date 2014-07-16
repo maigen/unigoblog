@@ -1,31 +1,35 @@
 
 
-<div class="off-canvas-wrap container">
+<!-- <div class="off-canvas-wrap data-offcanvas">
     <div class="inner-wrap">
-        <div id="wrapper">
 
            
+	        <nav class="tab-bar show-for-small">
+	            <section class="left-small">
+	            	<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+	            </section>
+	        </nav>
 
-            <nav id="mobileNav" class="tab-bar row show-for-small" data-topbar>
-                <section class="left-small">
-                    <a class="left-off-canvas-toggle menu-icon">
-                        <span></span>
-                    </a>
-                </section>
-            </nav>
-            <aside class="left-off-canvas-menu show-for-small">
+	        <aside class="left-off-canvas-menu show-for-small">
+	            <ul class="off-canvas-list">
+	                <li><label class="first"><a href="/" title="College Reviews, Matching and More">Unigo.com</a></label></li>
+	                <li><a class="transparent" href="https://www.unigo.com/college-match/">College Match</a></li>
+	                <li><a class="transparent" href="https://www.unigo.com/colleges">College Search</a></li>
+	                <li><a class="transparent" href="https://www.unigo.com/AskAnExpert.aspx">Admissions Advice</a></li>
+	                <li><a class="transparent" href="https://www.unigo.com/Chat/Chats.aspx">Live Counseling</a></li>
+	                <li><a class="transparent" href="https://www.unigo.com/Curriculum">Absolute Admit</a></li>
+	                <li><a class="transparent" href="https://www.unigo.com/AboutUs">About</a></li>
+	            </ul>
+	        </aside>
+          <section class="main-section">
+              <!-- content goes here -->
+    <!--         </section>
 
-                <ul class="off-canvas-list">
-                    <li><label class="first"><a href="/" title="College Reviews, Matching and More">Unigo.com</a></label></li>
-                    <li><a class="transparent" href="https://www.unigo.com/college-match/">College Match</a></li>
-                    <li><a class="transparent" href="https://www.unigo.com/colleges">College Search</a></li>
-                    <li><a class="transparent" href="https://www.unigo.com/AskAnExpert.aspx">Admissions Advice</a></li>
-                    <li><a class="transparent" href="https://www.unigo.com/Chat/Chats.aspx">Live Counseling</a></li>
-                    <li><a class="transparent" href="https://www.unigo.com/Curriculum">Absolute Admit</a></li>
-                    <li><a class="transparent" href="https://www.unigo.com/AboutUs">About</a></li>
-                </ul>
-            </aside>
-   
+          <a class="exit-off-canvas"></a>
+
+          </div>
+        </div> -->
+
 
 
 
