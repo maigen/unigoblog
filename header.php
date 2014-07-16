@@ -44,47 +44,46 @@
         <div id="background-container">
     		<div class="inner-wrap">
     			<div id="container_12">
-    				<header class="header_container_12" role="banner">
-    					<div id="inner-header" class="row collapse">
+    				<header class="header_container_12">
+    					<div class="row">
+                            <div class="large-12 medium-12 columns" id="logo_and_register">
+                                <div class="large-3 medium-3 columns" id="logo">
+                                    <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
+                                </div>
+                                <div class="large-9 medium-9 columns" id="top-area">
+                                    <nav role="signup_nav" id="signup">  
+                                                                        <?php
+                                                                        
+                                                                        $defaults = array(
+                                                                            'theme_location'  => '',
+                                                                            'menu'            => 'sign_up_nav',
+                                                                            'container'       => 'div',
+                                                                            'container_class' => '',
+                                                                            'container_id'    => '',
+                                                                            'menu_class'      => 'menu',
+                                                                            'menu_id'         => '',
+                                                                            'echo'            => true,
+                                                                            'fallback_cb'     => 'wp_page_menu',
+                                                                            'before'          => '',
+                                                                            'after'           => '',
+                                                                            'link_before'     => '',
+                                                                            'link_after'      => '',
+                                                                            'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
+                                                                                                    <ul id="hover1" class="f-dropdown" data-dropdown-content>
+                                                                                                        <li></li>
+                                                                                                        %3$s
+                                                                                                        </ul>',
+                                                                            'depth'           => 0,
+                                                                            'walker'          => ''
+                                                                        );
 
-                            <div class="large-3 columns medium-3 columns" id="logo">
-                                <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
-                            </div>
+                                                                        wp_nav_menu( $defaults );
+                                                                        ?>
+                                                                    </nav>  
 
-                            <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
-                                <!-- top-area -->
-                                <nav role="signup_nav">  
-                                    <?php
-                                    
-                                    $defaults = array(
-                                        'theme_location'  => '',
-                                        'menu'            => 'sign_up_nav',
-                                        'container'       => 'div',
-                                        'container_class' => '',
-                                        'container_id'    => '',
-                                        'menu_class'      => 'menu',
-                                        'menu_id'         => '',
-                                        'echo'            => true,
-                                        'fallback_cb'     => 'wp_page_menu',
-                                        'before'          => '',
-                                        'after'           => '',
-                                        'link_before'     => '',
-                                        'link_after'      => '',
-                                        'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
-                                                                <ul id="hover1" class="f-dropdown" data-dropdown-content>
-                                                                    <li></li>
-                                                                    %3$s
-                                                                    </ul>',
-                                        'depth'           => 0,
-                                        'walker'          => ''
-                                    );
+                                        <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
+                                </div>                              
 
-                                    wp_nav_menu( $defaults );
-                                    ?>
-                                </nav>  
-                            </div>                              
-                            <div class="large-1 columns medium-1 columns" id="signin_nav">
-                                <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
                             </div>
 
                             <div class="clear"></div>

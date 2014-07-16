@@ -14,26 +14,29 @@
 
 @font-face { font-family: "Chalkduster"; src: url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.eot"); src: url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.eot?#iefix") format("embedded-opentype"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.woff") format("woff"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.ttf") format("truetype"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.svg#Chalkduster") format("svg"); font-weight: 100; font-style: normal; font-stretch: normal; }
 
-header .contain-to-grid { width: 100%; background: transparent; }
-header #logo { margin-top: 10px; }
-header #signup_nav nav { vertical-align: top; border-radius: 0 0 6px 6px; background-color: #221f20; display: block; margin: 0 3px 0 -3px; }
-header #signup_nav nav a { padding: 0 0 5px 0; }
-header #signup_nav a { font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
-header #signup_nav .f-dropdown { max-width: 234px; margin-top: -4px; border: none; }
-header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after { display: none; }
-header #signup_nav .f-dropdown li { padding: 10px 0 0 25px; }
-header #signup_nav .f-dropdown li a { text-align: left; font: 16px Gibson-Regular, Arial, Helvetica, sans-serif; color: #fdb913; }
-header #hover1 li:hover { background: #221f20; }
-header #signin_nav { background-color: #fdb913; vertical-align: top; border-radius: 0 0 6px 6px; text-align: center; }
-header #signin_nav a { padding: 0 0 5px 0; }
-header #signin_nav a { color: #221f20; font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; display: inline-block; white-space: nowrap; }
-header li { list-style: none; text-decoration: none; background-color: #221f20; }
-header nav .top-bar-section { margin-top: 15px; }
-header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 0.88em; font-weight: 700; }
-header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
-header nav.top-bar { background: white; overflow: visible; }
-header #big_black_box { padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
-header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
+header #container_12 .top-area { text-align: right; padding: 0 0 40px; /* add-menu */ }
+header #container_12 .top-area .add-menu { display: inline-block; vertical-align: top; font-size: .875em; line-height: 1.25em; padding: 5px 0 0; }
+header #container_12 #top-area .add-menu ul { list-style: none; margin: 0; padding: 0; overflow: hidden; }
+header #container_12 #top-area .add-menu li { float: left; padding: 0 10px 0 0; }
+header #container_12 #top-area .add-menu a { text-decoration: none; }
+header #container_12 #top-area .add-menu a:hover { text-decoration: underline; }
+header #container_12 #top-area .orange-link, header #container_12 #top-area .black-link { display: inline-block; vertical-align: top; padding: 5px 15px 8px 13px; background: #221f20; font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: #e7e7e7; text-decoration: none; border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -khtml-border-radius: 0 0 6px 6px; -webkit-border-bottom-right-radius: 6px; -webkit-border-bottom-left-radius: 6px; }
+header #container_12 #top-area .orange-link:hover, header #container_12 #top-area .black-link:hover { text-decoration: underline; }
+header #container_12 #top-area .orange-link { background: #fdb913; color: #221f20; }
+header #container_12 #top-area #signup { position: relative; display: inline-block; zoom: 1; *display: inline; vertical-align: top; z-index: 99; }
+header #container_12 #top-area #signup #expertDropdown { font-size: .875em; }
+header #container_12 #top-area #signup .black-link { padding-right: 29px; background: #221f20 url(/Content/CSS/Images/arrow-1.gif) no-repeat 100% 11px; }
+header #container_12 #top-area #signup .noBG { background-image: none; padding-right: 10px; }
+header #container_12 #top-area #signup:hover .black-link { border-radius: 0 0 0px 0px; -moz-border-radius: 0 0 0px 0px; -khtml-border-radius: 0 0 0px 0px; -webkit-border-bottom-right-radius: 0px; -webkit-border-bottom-left-radius: 0px; text-decoration: none; cursor: pointer; }
+header #container_12 #top-area #signup:hover .noBG { border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -khtml-border-radius: 0 0 6px 6px; -webkit-border-bottom-right-radius: 6px; -webkit-border-bottom-left-radius: 6px; text-decoration: underline; }
+header #container_12 #top-area #signup:hover ul { display: block; }
+header #container_12 #top-area #signup:hover ul a { text-decoration: none; color: #fdb913; }
+header #container_12 #top-area #signup:hover ul a:hover { text-decoration: underline; }
+header #container_12 #top-area #signup ul { position: absolute; top: 100%; right: 0; display: none; list-style: none; background: #221f20; width: 162px; -webkit-border-top-right-radius: 0; -webkit-border-bottom-right-radius: 3px; -webkit-border-bottom-left-radius: 3px; -webkit-border-top-left-radius: 0; -moz-border-radius-topright: 0; -moz-border-radius-bottomright: 3px; -moz-border-radius-bottomleft: 3px; -moz-border-radius-topleft: 0; border-top-right-radius: 0; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; border-top-left-radius: 0; -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box; margin: 0; padding: 5px 0; text-align: left; }
+header #container_12 #top-area #signup ul li { padding: 0 13px; }
+header #logo_and_register { background-color: white; }
+header #logo_and_register #top-area, header #logo_and_register .orange-link, header #logo_and_register .black-link { display: inline-block; vertical-align: top; padding: 5px 15px 8px 13px; background: #221f20; font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: #e7e7e7; text-decoration: none; border-radius: 0 0 6px 6px; -moz-border-radius: 0 0 6px 6px; -khtml-border-radius: 0 0 6px 6px; -webkit-border-bottom-right-radius: 6px; -webkit-border-bottom-left-radius: 6px; }
+header #logo_and_register #top-area .orange-link { background: #fdb913; color: #221f20; }
 
 #background-container { background-color: #b7b7b7; }
 
