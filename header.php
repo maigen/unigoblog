@@ -95,6 +95,9 @@
                         <div class="clear"></div>
 
 
+                        <div class="show-for-small">
+						  <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+                        </div>
 
 
                         <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->

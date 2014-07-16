@@ -86,7 +86,7 @@ body {
   padding: 0;
   list-style-type: none;
   float: left;
-  width: 33%;
+  
 }
 
 
@@ -154,7 +154,7 @@ ul li:hover .cbp-hrsub {
 
 
 .cbp-hrmenu .cbp-hrsub-inner > div a {
-  padding: 1em 0em 0;
+  padding: 1em 0.5em 0;
   color: #fff;
   font-size: 0.90em;
   line-height: 1em;
@@ -166,9 +166,49 @@ ul li:hover .cbp-hrsub {
   text-decoration: underline;
 }
 
-#nav_header_box {
-    padding: 0px;
-    margin-top: 20px;
-    margin-bottom: 1px;
-    background-color: white;
+
+/* NEW CODE FOR ALIGNING SUB-MENU ITEMS */
+.dd2 > div {
+  margin-left: 162px;
 }
+
+.dd3 div {
+  float: left;
+}
+
+.dd3 > div:nth-child(1) {
+  margin-left: 328px;
+}
+
+
+.dd3 > div:nth-child(2) {
+  margin-left: 650px;
+  position: absolute;
+}
+
+.dd4 > div:nth-child(1) {
+  margin-left: 510px;
+}
+
+
+.dd5 > div:nth-child(1) {
+   margin-left: 675px;
+}
+
+/* HACKS FOR IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   .dd4 > div:nth-child(1) {
+            ul {
+                margin: 0 0 0 .5rem !important;
+            }
+    }
+}  
+
+/* HACKS FOR IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   .dd5 > div:nth-child(1) {
+            ul {
+                margin: 0 0 0 .5rem !important;
+            }
+    }
+}  
