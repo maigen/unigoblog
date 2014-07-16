@@ -100,10 +100,7 @@
                         </div>
 
 
-                        <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->
-
-						
-
+                        <!-- HORIZONTAL LINKS -->
 
 						<!-- You only need to use one of the above navigations.
 							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
@@ -111,7 +108,30 @@
                                 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
                              </div>
 
-                             <div class="large-12 columns medium-12 columns" id="big_black_box">
+                             <div class="small">
+                             <ul class="example-orbit" data-orbit>
+                               <li>
+                                 <img src="uci-aldrich.jpg" alt="slide 1" />
+                                 <div class="orbit-caption">
+                                   Caption One.
+                                 </div>
+                               </li>
+                               <li class="active">
+                                 <img src="../assets/img/examples/andromeda-orbit.jpg" alt="slide 2" />
+                                 <div class="orbit-caption">
+                                   Caption Two.
+                                 </div>
+                               </li>
+                               <li>
+                                 <img src="../assets/img/examples/launch-orbit.jpg" alt="slide 3" />
+                                 <div class="orbit-caption">
+                                   Caption Three.
+                                 </div>
+                               </li>
+                             </ul>
+                            </div>
+
+                             <!-- <div class="large-12 columns medium-12 columns" id="big_black_box">
                               
                                         <?php if (is_home()) { ?>
                                             <h1>
@@ -154,7 +174,7 @@
                                         <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
                                 
                              </div>
-
+ -->
 					</div> <!-- end #inner-header -->
 
 
