@@ -108,7 +108,8 @@
                                 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
                              </div>
 
-                             <div class="small">
+
+                             <div class="small-12 columns">
                              <ul class="example-orbit" data-orbit>
                                <li>
                                  <img src="uci-aldrich.jpg" alt="slide 1" />
