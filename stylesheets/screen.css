@@ -15,7 +15,7 @@
 @font-face { font-family: "Chalkduster"; src: url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.eot"); src: url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.eot?#iefix") format("embedded-opentype"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.woff") format("woff"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.ttf") format("truetype"), url("/wp_unigoblog/wp-content/themes/unigoblog/fonts/Chalkduster.svg#Chalkduster") format("svg"); font-weight: 100; font-style: normal; font-stretch: normal; }
 
 header .contain-to-grid { width: 100%; background: transparent; }
-header #logo { margin-top: 10px; }
+header #logo { margin: 10px; }
 header #signup_nav nav { vertical-align: top; border-radius: 0 0 6px 6px; background-color: #221f20; display: block; margin: 0 3px 0 -3px; }
 header #signup_nav nav a { padding: 0 0 5px 0; }
 header #signup_nav a { font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; display: block; text-align: center; }
