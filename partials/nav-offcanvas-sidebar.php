@@ -38,14 +38,15 @@
 <aside class="left-off-canvas-menu show-for-small-only">
 	<ul class="off-canvas-list">
 		<li><label>Navigation</label></li>
-			<?php joints_main_nav(); ?>    
+			<?php joints_main_nav(); ?>  
 	</ul>
 </aside>
 
 <aside class="right-off-canvas-menu show-for-small-only">
 	<ul class="off-canvas-list">
 		<li><label>Sidebar</label></li>
-			<?php get_sidebar('offcanvas'); ?>   
+			<?php get_sidebar('offcanvas'); ?> 
+ 
 	</ul>
 </aside>
 
