@@ -39,7 +39,7 @@ header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiB
 
 .inner-wrap { background-color: white; max-width: 1086px; margin-left: auto; margin-right: auto; padding: 0 30px 0 30px; border-left: 1px solid #666; border-right: 1px solid #666; border-bottom: 1px solid #666; }
 
-#content .article-header title, #content .article-header a, #content .article-header h3 { font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: transparent; color: #221f20; }
+#content .article-header title, #content .article-header h1, #content .article-header a, .post .article-header title, .post .article-header h1, .post .article-header a { font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; background-color: transparent; color: #b7b7b7; }
 
 .entry-content { padding-top: 28px; }
 
