@@ -140,7 +140,7 @@
 			    				<br>
 				               
 				                <div class="large-12 medium-12 columns" id="copyright_text">		
-									<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>.</p>
+									<p class="source-org copyright">Copyright © 2014 Unigo. All rights reserved.</p>
 								</div>		
 
 						</footer> <!-- end .footer -->
