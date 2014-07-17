@@ -60,17 +60,24 @@ body {
         }
 }
 
-#main {
+/*#main {
     h2 a {
     color: #b7b7b7;
     font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
     }
-}
+}*/
 
 #top_link_list {
     background-color: white;
 }
 
+.tab-bar {
+	background-color: transparent;
+	margin: -4.5em 0 3em 0;
+	a {
+	background-color: black;
+	}
+}
 
 
 
