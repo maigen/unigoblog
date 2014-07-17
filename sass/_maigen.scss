@@ -121,12 +121,12 @@ header {
     border-bottom: 1px solid #666;
 }
 
-#content {
+#content, .post {
     .article-header {
-        title, a, h3 {
-            font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+        title, h1, a {
+            font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
             background-color: transparent;
-            color: $unigo_primary_color;
+            color: $unigo_body_background;
         }
     }
 }
