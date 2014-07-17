@@ -146,7 +146,6 @@
 						</footer> <!-- end .footer -->
 					</div> <!-- end #container -->
 				</div> <!-- end .inner-wrap -->
-			</div>
 		</div> <!-- end .off-canvas-wrap -->
 						
 				<!-- all js scripts are loaded in library/joints.php -->
