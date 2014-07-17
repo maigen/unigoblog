@@ -32,8 +32,6 @@ header nav .top-bar-section { margin-top: 15px; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button) { padding: 0 15px; line-height: 45px; background: white; color: #309bd7; font-size: 0.88em; font-weight: 700; }
 header nav .top-bar-section ul li:not(.has-form) a:not(.button):hover { background: white; }
 header nav.top-bar { background: white; overflow: visible; }
-header #big_black_box { padding: 40px 30px 40px; margin: 0 0 24px; background-color: #221f20; }
-header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif; color: white; }
 
 #background-container { background-color: #b7b7b7; }
 
