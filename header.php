@@ -48,7 +48,7 @@
     					<div id="inner-header" class="row collapse">
                             <!-- LOGO -->
                             <div class="large-3 columns medium-3 columns" id="logo">
-                                <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
+                                <a href="http://www.unigo.com/blog"><img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" /></a> 
                             </div>
 
                             <!-- "BECOME A MEMBER" DROPDOWN -->
