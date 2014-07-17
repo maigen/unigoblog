@@ -52,7 +52,7 @@
                             </div>
 
                             <!-- "BECOME A MEMBER" DROPDOWN -->
-                            <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
+                            <div class="large-3 large-offset-5 medium-3 medium-offset-5 columns hide-for-small" id="signup_nav">
                                 <!-- top-area -->
                                 <nav role="signup_nav">  
                                     <?php
