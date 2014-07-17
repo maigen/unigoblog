@@ -76,11 +76,7 @@ header .contain-to-grid {
   background: transparent;
 }
 header #logo {
-  margin-top: 10px;
-}
-header #signup_nav {
-  font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-  color: #e7e7e7;
+  margin: 10px -10px 10px 10px;
 }
 header #signup_nav nav {
   vertical-align: top;
@@ -90,10 +86,10 @@ header #signup_nav nav {
   margin: 0 3px 0 -3px;
 }
 header #signup_nav nav a {
-  padding: 10px;
+  padding: 0 0 5px 0;
 }
 header #signup_nav a {
-  font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+  font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
   color: white;
   display: block;
   text-align: center;
@@ -111,8 +107,8 @@ header #signup_nav .f-dropdown li {
 }
 header #signup_nav .f-dropdown li a {
   text-align: left;
-  font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-  color: white;
+  font: 16px Gibson-Regular, Arial, Helvetica, sans-serif;
+  color: #fdb913;
 }
 header #hover1 li:hover {
   background: #221f20;
@@ -124,11 +120,11 @@ header #signin_nav {
   text-align: center;
 }
 header #signin_nav a {
-  padding: 10px;
+  padding: 0 0 5px 0;
 }
 header #signin_nav a {
   color: #221f20;
-  font: 16px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+  font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
   display: inline-block;
   white-space: nowrap;
 }
@@ -155,24 +151,26 @@ header nav.top-bar {
   background: white;
   overflow: visible;
 }
-header nav.top-bar .toggle-topbar a {
-  color: white;
-}
-header #big_black_box {
-  padding: 40px 30px 40px;
-  margin: 0 0 24px;
-  background-color: #221f20;
-}
-header #big_black_box h1 {
-  padding: 12px 10px 12px 10px;
-  font: 60px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-  color: white;
+
+#background-container {
+  background-color: #b7b7b7;
 }
 
-#content .article-header title, #content .article-header a, #content .article-header h3 {
-  font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+.inner-wrap {
+  background-color: white;
+  max-width: 1086px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 30px 0 30px;
+  border-left: 1px solid #666;
+  border-right: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+#content .article-header title, #content .article-header h1, #content .article-header a, .post .article-header title, .post .article-header h1, .post .article-header a {
+  font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
   background-color: transparent;
-  color: #221f20;
+  color: #b7b7b7;
 }
 
 .entry-content {
@@ -212,7 +210,7 @@ header #big_black_box h1 {
   color: #309bd7;
   font: 0.95em Gibson-Regular, Arial, Helvetica, sans-serif;
 }
-.widget a:hover, .widget :focus {
+.widget a:hover, .widget :focus, .widget :active, .widget :visited {
   background: white !important;
   color: #309bd7 !important;
 }

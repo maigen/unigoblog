@@ -1,74 +1,74 @@
 body {
-	background-color: white;
-	margin: 0;
-	padding: 0;
-	font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif;
 }
 
 .footer {
-	margin-top: 60px;
-	border-top: 2px solid #e7e7e7;
-	padding: 44px 0 0;
+    margin-top: 60px;
+    border-top: 2px solid #e7e7e7;
+    padding: 44px 0 0;
 
-		@mixin social-icons {
-			display: block;
-			text-indent: -9999px;
-			overflow: hidden;
-			width: 30px;
-			height: 30px;
-			background-image: url('/wp_unigoblog/social-icons.png');
-		}
+        @mixin social-icons {
+            display: block;
+            text-indent: -9999px;
+            overflow: hidden;
+            width: 30px;
+            height: 30px;
+            background-image: url('/wp_unigoblog/social-icons.png');
+        }
 
-		li {
-			list-style: none;
-			font-size: 15px;
-			line-height: 24px;
-		}
-		h5 {
-			text-transform: uppercase;
-			color: #221f20;
-			margin: 0 0 12px 15px;
-			font: 18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-			font-weight: 500;
-		}
-		#footer-logo {
-			margin: 0 0 40px 3px;
-		}
-		#copyright_text {
-			text-align: center;
-			font: 11px/13px Helvetica, Arial, sans-serif;
-			color: #b7b7b7;
-			border-top: 2px solid #e7e7e7;
-			padding: 15px 0 20px;
-			top: 10px;
-		}
-		.social-networks {
-			overflow: hidden;
-			padding: 0 0 41px;	
-		}
-		.facebook {
-			float: left;
-			padding: 0 14px 0 0;
-		}
-		.facebook a {
-			@include social-icons;
-			background-position: 0 -37px;
-		}
-		.twitter a {
-			@include social-icons;
-			background-position: -44px -37px;
-		}
+        li {
+            list-style: none;
+            font-size: 15px;
+            line-height: 24px;
+        }
+        h5 {
+            text-transform: uppercase;
+            color: #221f20;
+            margin: 0 0 12px 15px;
+            font: 18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        #footer-logo {
+            margin: 0 0 40px 3px;
+        }
+        #copyright_text {
+            text-align: center;
+            font: 11px/13px Helvetica, Arial, sans-serif;
+            color: #b7b7b7;
+            border-top: 2px solid #e7e7e7;
+            padding: 15px 0 20px;
+            top: 10px;
+        }
+        .social-networks {
+            overflow: hidden;
+            padding: 0 0 41px;  
+        }
+        .facebook {
+            float: left;
+            padding: 0 14px 0 0;
+        }
+        .facebook a {
+            @include social-icons;
+            background-position: 0 -37px;
+        }
+        .twitter a {
+            @include social-icons;
+            background-position: -44px -37px;
+        }
 }
 
 #main {
-	h2 a {
-	color: #b7b7b7;
-	font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
-	}
+    h2 a {
+    color: #b7b7b7;
+    font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+    }
 }
 
 #top_link_list {
-	background-color: white;
+    background-color: white;
 }
 
 
@@ -212,3 +212,4 @@ ul li:hover .cbp-hrsub {
             }
     }
 }  
+
