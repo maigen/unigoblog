@@ -54,7 +54,7 @@ header #big_black_box h1 { padding: 12px 10px 12px 10px; font: 60px Gibson-SemiB
 
 .widget h4 { text-transform: uppercase; font: 1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif; }
 .widget li { list-style: none; color: #309bd7; font: 0.95em Gibson-Regular, Arial, Helvetica, sans-serif; }
-.widget a:hover, .widget :focus, .widget :active, .widget :visited { background: white !important; color: #221f20 !important; }
+.widget a:hover, .widget :focus, .widget :active, .widget :visited { background: white !important; color: #309bd7 !important; }
 
 body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Regular, Arial, Helvetica, sans-serif; }
 
