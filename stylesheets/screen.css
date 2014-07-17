@@ -70,20 +70,20 @@ body { background-color: white; margin: 0; padding: 0; font: 16px/22px Gibson-Re
 
 #main h2 a { color: #b7b7b7; font: 60px/67px Gibson-SemiBold, Arial, Helvetica, sans-serif; }
 
-#top_link_list { margin-bottom: 2px; }
+#top_link_list { background-color: white; }
 
 /* DROPDOWN NAV */
 .cbp-hrmenu { width: 100%; margin-top: 10px; }
 
 /* general ul style */
-.cbp-hrmenu ul { margin: 0; padding: 0; list-style-type: none; float: left; width: 33%; }
+.cbp-hrmenu ul { margin: 0; padding: 0; list-style-type: none; float: left; }
 
 /* first level ul style */
-.cbp-hrmenu > ul { width: 100%; max-width: 60em; margin: 0 auto; padding: 0 1.875em; }
+.cbp-hrmenu > ul { width: 100%; max-width: 60em; margin: 0 auto; padding: 0 1.875em; background-color: white; }
 
 .cbp-hrmenu .cbp-hrsub-inner { width: 100%; max-width: 58em; margin: 0 auto; /*padding: 1em 1.875em;*/ }
 
-.cbp-hrmenu > ul > li { display: inline-block; margin-left: -5px; }
+.cbp-hrmenu > ul > li { display: inline-block; margin-left: -5px; background-color: white; }
 
 .cbp-hrmenu > ul > li > a { font-family: Helvetica, Arial, sans-serif; font-size: 0.95em; font-weight: 700; text-transform: uppercase; padding: 1.1em 1em; color: #47a3da; display: inline-block; text-decoration: none; cursor: default; }
 
@@ -96,6 +96,24 @@ ul li:hover .cbp-hrsub { color: #fff; display: block; background: #221f20; }
 
 .cbp-hrmenu > ul > li:hover a { color: #fff; display: block; background: #221f20; z-index: 3333333333; }
 
-.cbp-hrmenu .cbp-hrsub-inner > div a { padding: 1em 0em 0; color: #fff; font-size: 0.90em; line-height: 1em; text-decoration: none; text-transform: uppercase; }
+.cbp-hrmenu .cbp-hrsub-inner > div a { padding: 1em 0.5em 0; color: #fff; font-size: 0.90em; line-height: 1em; text-decoration: none; text-transform: uppercase; }
 
 .cbp-hrsub-inner > div a:hover { text-decoration: underline; }
+
+/* NEW CODE FOR ALIGNING SUB-MENU ITEMS */
+.dd2 > div { margin-left: 162px; }
+
+.dd3 div { float: left; }
+
+.dd3 > div:nth-child(1) { margin-left: 328px; }
+
+.dd3 > div:nth-child(2) { margin-left: 650px; position: absolute; }
+
+.dd4 > div:nth-child(1) { margin-left: 510px; }
+
+.dd5 > div:nth-child(1) { margin-left: 675px; }
+
+/* HACKS FOR IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .dd4 > div:nth-child(1) ul { margin: 0 0 0 .5rem !important; } }
+/* HACKS FOR IE */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { .dd5 > div:nth-child(1) ul { margin: 0 0 0 .5rem !important; } }

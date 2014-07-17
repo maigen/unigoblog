@@ -46,11 +46,12 @@
     			<div id="container_12">
     				<header class="header_container_12" role="banner">
     					<div id="inner-header" class="row collapse">
-
+                            <!-- LOGO -->
                             <div class="large-3 columns medium-3 columns" id="logo">
                                 <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
                             </div>
 
+                            <!-- "BECOME A MEMBER" DROPDOWN -->
                             <div class="large-3 columns large-offset-5 columns medium-3 columns medium-offset-5 columns" id="signup_nav">
                                 <!-- top-area -->
                                 <nav role="signup_nav">  
@@ -83,20 +84,52 @@
                                     ?>
                                 </nav>  
                             </div>                              
-                            <div class="large-1 columns medium-1 columns" id="signin_nav">
+                            
+                            <!-- "SIGN IN" BUTTON  -->
+                            <div class="large-1 columns medium-1 columns hide-for-small" id="signin_nav">
                                 <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
                             </div>
 
                             <div class="clear"></div>
 
-    						 <?php // get_template_part( 'partials/nav', 'offcanvas' ); ?> 
-
-    						 <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+                            <div class="show-for-small">
+                            <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+                            </div>
+                            
+                            
+                         <!-- HORIZONTAL LINKS -->
 
     						<!-- You only need to use one of the above navigations.
     							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
 
-                                 <div class="large-12 columns medium-12 columns" id="big_black_box">
+                                <div class="large-12 columns medium-12 columns" id="nav_header_box">
+                                <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+                                </div>
+
+                             <div class="small-12 columns">
+                               <ul class="example-orbit" data-orbit>
+                                 <li>
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption One.
+                                   </div>
+                                 </li>
+                                 <li class="active">
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption Two.
+                                   </div>
+                                 </li>
+                                 <li>
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption Three.
+                                   </div>
+                                 </li>
+                               </ul>
+                             </div>
+ 
+                              <!-- <div class="large-12 columns medium-12 columns" id="big_black_box">
                                   
                                             <?php if (is_home()) { ?>
                                                 <h1>
@@ -139,7 +172,7 @@
                                             <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
                                     
                                  </div>
-
+-->
     					</div> <!-- end #inner-header -->
 
     				</header> <!-- end header -->
