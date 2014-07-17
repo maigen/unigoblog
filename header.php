@@ -109,7 +109,7 @@
                              </div>
 
 
-                            <div class="small-12 columns">
+                            <div class="small-12 columns hide-for-small">
                               <ul class="example-orbit" data-orbit>
                                 <li>
                                   <img src="uci-aldrich.jpg" alt="slide 1" />
