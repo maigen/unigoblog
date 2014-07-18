@@ -105,8 +105,9 @@
 
                              <div class="small-12 columns hide-for-small">
                               <div class="row">
+
                                 <div class="small-8 columns">
-                                   <ul class="example-orbit" data-orbit>
+                                   <ul class="orbit" data-orbit>
                                      <li>
                                        <img src="park.jpg" alt="slide 1" />
                                        <div class="orbit-caption">
@@ -127,6 +128,11 @@
                                      </li>
                                    </ul>
                                  </div>
+
+                                <div class="small-4 columns">
+                                  <img src="park.jpg">
+                                </div>
+
                                </div>
                              </div>
 
