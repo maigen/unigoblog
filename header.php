@@ -130,11 +130,12 @@
                                  </div>
 
                                 <div class="small-4 columns">
-                                  <img src="park.jpg">
+                                  <img src="banner2.jpg">
                                 </div>
 
                                </div>
                              </div>
+
 
     					</div> <!-- end #inner-header -->
 				</header> <!-- end header -->
