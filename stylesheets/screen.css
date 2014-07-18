@@ -71,6 +71,9 @@
   font-stretch: normal;
 }
 
+header #inner-header .row, header #inner-header .collapse {
+  margin: 0 -12px 0 0;
+}
 header .contain-to-grid {
   width: 100%;
   background: transparent;
@@ -78,55 +81,71 @@ header .contain-to-grid {
 header #logo {
   margin: 10px -10px 10px 10px;
 }
-header #signup_nav nav {
-  vertical-align: top;
-  border-radius: 0 0 6px 6px;
-  background-color: #221f20;
-  display: block;
-  margin: 0 3px 0 -3px;
+header #register_div {
+  white-space: nowrap;
 }
-header #signup_nav nav a {
-  padding: 0 0 5px 0;
-}
-header #signup_nav a {
-  font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
-  color: white;
-  display: block;
-  text-align: center;
-}
-header #signup_nav .f-dropdown {
-  max-width: 234px;
-  margin-top: -4px;
-  border: none;
-}
-header #signup_nav .f-dropdown:before, header #signup_nav .f-dropdown:after {
-  display: none;
-}
-header #signup_nav .f-dropdown li {
-  padding: 10px 0 0 25px;
-}
-header #signup_nav .f-dropdown li a {
-  text-align: left;
-  font: 16px Gibson-Regular, Arial, Helvetica, sans-serif;
-  color: #fdb913;
-}
-header #hover1 li:hover {
-  background: #221f20;
-}
-header #signin_nav {
+header #register_div #signin_nav {
+  position: absolute;
+  right: 0;
+  z-index: 5;
+  width: 70px;
+  height: 30px;
   background-color: #fdb913;
   vertical-align: top;
   border-radius: 0 0 6px 6px;
+  padding: 2px 15px 8px 13px;
   text-align: center;
 }
-header #signin_nav a {
+header #register_div #signin_nav a {
   padding: 0 0 5px 0;
 }
-header #signin_nav a {
+header #register_div #signin_nav a {
   color: #221f20;
   font: 0.88em/1.25em Gibson-SemiBold, Arial, Helvetica, sans-serif;
   display: inline-block;
   white-space: nowrap;
+}
+header #register_div nav {
+  display: inline-block;
+  float: right;
+  position: relative;
+  margin-right: 73px;
+  vertical-align: top;
+  border-radius: 0 0 6px 6px;
+  padding: 2px 15px 8px 13px;
+  width: 162px;
+  height: 30px;
+  background: url(/wp_unigoblog/arrow-1.gif) no-repeat 100%;
+  background-color: #221f20;
+}
+header #register_div nav div > a {
+  font: .875em Gibson-SemiBold, Arial, Helvetica, sans-serif;
+  color: white;
+}
+header #register_div nav a {
+  padding: 0 0 5px 0;
+}
+header #register_div nav .f-dropdown {
+  width: 100%;
+  max-width: 162px;
+  margin-top: -4px;
+  margin-left: -13px;
+  border: none;
+}
+header #register_div nav .f-dropdown:before, header #register_div nav .f-dropdown:after {
+  padding: 0;
+  display: none;
+}
+header #register_div nav .f-dropdown li {
+  padding: 10px 0 0 13px;
+}
+header #register_div nav .f-dropdown li a {
+  text-align: left;
+  font: 14px Gibson-Regular, Arial, Helvetica, sans-serif;
+  color: #fdb913;
+}
+header #hover1 li:hover {
+  background: #221f20;
 }
 header li {
   list-style: none;
@@ -227,24 +246,29 @@ body {
   border-top: 2px solid #e7e7e7;
   padding: 44px 0 0;
 }
+.footer div#footer_logo {
+  padding: 0 30px 0 0;
+}
 .footer li {
   list-style: none;
-  font-size: 15px;
+  font: 13.5px Gibson-Light, Arial, Helvetica, sans-serif;
   line-height: 24px;
 }
 .footer h5 {
   text-transform: uppercase;
   color: #221f20;
   margin: 0 0 12px 15px;
-  font: 18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+  font: 14px Gibson-SemiBold, Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 .footer #footer-logo {
-  margin: 0 0 40px 3px;
+  margin: 0 0 30px 3px;
+  width: 131px;
+  height: 62px;
 }
 .footer #copyright_text {
   text-align: center;
-  font: 11px/13px Helvetica, Arial, sans-serif;
+  font: 7px Helvetica, Arial, sans-serif;
   color: #b7b7b7;
   border-top: 2px solid #e7e7e7;
   padding: 15px 0 20px;

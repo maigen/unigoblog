@@ -2,9 +2,9 @@
 						
 							<div class="row clearfix">
 
-								<div class="large-3 medium-3 columns">
+								<div class="large-3 medium-3 columns" id="footer_logo">
 									<div id="footer-logo">
-										<img src="/wp_unigoblog/unigoLogo.gif">
+										<a href="http://www.unigo.com/blog"><img src="/wp_unigoblog/unigoLogo.gif"></a>
 									</div>
 									<br>
 

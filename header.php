@@ -42,140 +42,87 @@
 	<body <?php body_class(); ?>>
 
 	<div class="off-canvas-wrap" data-offcanvas>
-		<div class="inner-wrap">
-			<div id="container_12">
-				<header class="header_container_12" role="banner">
-					<div id="inner-header" class="row collapse">
+        <div id="background-container">
+    		<div class="inner-wrap">
+    			<div id="container_12">
+    				<header class="header_container_12" role="banner">
+    					<div id="inner-header" class="row collapse">
+                            <!-- LOGO -->
+                            <div class="large-3 columns medium-3 columns" id="logo">
+                                <a href="http://www.unigo.com/blog"><img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" /></a> 
+                            </div>
 
-                        <!-- LOGO -->
-                        <div class="large-3 columns medium-3 columns" id="logo">
-                            <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
-                        </div>
-
-                        <!-- "BECOME A MEMBER" DROPDOWN -->
-                        <div class="small-3 columns small-offset-5 columns hide-for-small" id="signup_nav">
-                            <!-- top-area -->
-                            <nav role="signup_nav">  
-                                <?php
+                            <!-- "BECOME A MEMBER" DROPDOWN -->
+                            <div class="large-9 medium-9 columns hide-for-small" id="register_div">
                                 
-                                $defaults = array(
-                                    'theme_location'  => '',
-                                    'menu'            => 'sign_up_nav',
-                                    'container'       => 'div',
-                                    'container_class' => '',
-                                    'container_id'    => '',
-                                    'menu_class'      => 'menu',
-                                    'menu_id'         => '',
-                                    'echo'            => true,
-                                    'fallback_cb'     => 'wp_page_menu',
-                                    'before'          => '',
-                                    'after'           => '',
-                                    'link_before'     => '',
-                                    'link_after'      => '',
-                                    'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
-                                                            <ul id="hover1" class="f-dropdown" data-dropdown-content>
-                                                                <li></li>
-                                                                %3$s
-                                                                </ul>',
-                                    'depth'           => 0,
-                                    'walker'          => ''
-                                );
+                                <nav role="signup_nav">  
+                                    <?php
+                                    
+                                    $defaults = array(
+                                        'theme_location'  => '',
+                                        'menu'            => 'sign_up_nav',
+                                        'container'       => 'div',
+                                        'container_class' => '',
+                                        'container_id'    => '',
+                                        'menu_class'      => 'menu',
+                                        'menu_id'         => '',
+                                        'echo'            => true,
+                                        'fallback_cb'     => 'wp_page_menu',
+                                        'before'          => '',
+                                        'after'           => '',
+                                        'link_before'     => '',
+                                        'link_after'      => '',
+                                        'items_wrap'      => '<a href="#" data-dropdown="hover1" data-options="is_hover:true">become a member</a>
+                                                                <ul id="hover1" class="f-dropdown" data-dropdown-content>
+                                                                    <li></li>
+                                                                    %3$s
+                                                                    </ul>',
+                                        'depth'           => 0,
+                                        'walker'          => ''
+                                    );
 
-                                wp_nav_menu( $defaults );
-                                ?>
-                            </nav>  
-                        </div> 
+                                    wp_nav_menu( $defaults );
+                                    ?>
+                                </nav>
+                                <!-- "SIGN IN" BUTTON  -->
+                                <div class="hide-for-small" id="signin_nav">
+                                    <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
+                                </div>  
+                            </div>     
 
-                        <!-- "SIGN IN" BUTTON  -->
-                        <div class="small-1 columns small-1 columns hide-for-small" id="signin_nav">
-                            <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
-                        </div>
+                            <div class="clear"></div>
 
-
-                        <div class="clear"></div>
-
-
-                        <div class="show-for-small">
-						  <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
-                        </div>
-
-
-                        <!-- HORIZONTAL LINKS, COLLAPSIBLE (HAMBURGER) -->
-
-						
-
-
-						<!-- You only need to use one of the above navigations.
-							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
-                             <div class="large-12 columns medium-12 columns" id="nav_header_box">
-                                <?php get_template_part( 'partials/nav', 'topbar' ); ?>
-                             </div>
+                            <div class="show-for-small">
+                            <?php get_template_part( 'partials/nav', 'offcanvas' ); ?> 
+                            </div>
+                            
+                            
+                         <!-- HORIZONTAL LINKS -->
+                            <div class="large-12 columns medium-12 columns" id="nav_header_box">
+                            <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+                            </div>
 
                              <div class="small-12 columns hide-for-small">
-                                <ul class="example-orbit" data-orbit>
-                                  <li>
-                                    <img src="park.jpg" alt="slide 1" />
-                                    <div class="orbit-caption">
-                                      Caption One.
-                                    </div>
-                                  </li>
-                                  <li class="active">
-                                    <img src="park.jpg" alt="slide 2" />
-                                    <div class="orbit-caption">
-                                      Caption Two.
-                                    </div>
-                                  </li>
-                                  <li>
-                                    <img src="park.jpg" alt="slide 3" />
-                                    <div class="orbit-caption">
-                                      Caption Three.
-                                    </div>
-                                  </li>
-                                </ul>
-                              
-                              <!--           <?php if (is_home()) { ?>
-                                            <h1>
-                                                Unigo Blog
-                                            </h1>
-                                        <?php } elseif ( is_search() ) { ?>
-                                           <h1><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
-
-                                        <?php } elseif (is_category()) { ?>
-                                            <h1>
-                                                <span><?php _e("Topic:", "jointstheme"); ?></span> <?php single_cat_title(); ?>
-                                            </h1>
-                                        
-                                        <?php } elseif (is_tag()) { ?> 
-                                            <h1>
-                                                <span><?php _e("Tagged:", "jointstheme"); ?></span> <?php single_tag_title(); ?>
-                                            </h1>
-                                        
-                                        <?php } elseif (is_author()) { 
-                                            global $post;
-                                            $author_id = $post->post_author;
-                                        ?>
-                                            <h1>
-                                                <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
-                                            </h1>
-                                        <?php } elseif (is_day()) { ?>
-                                            <h1>
-                                                <span><?php _e("Daily Archives:", "jointstheme"); ?></span> <?php the_time('l, F j, Y'); ?>
-                                            </h1>
-                        
-                                        <?php } elseif (is_month()) { ?>
-                                            <h1>
-                                                <span><?php _e("Monthly Archives:", "jointstheme"); ?></span> <?php the_time('F Y'); ?>
-                                            </h1>
-                                    
-                                        <?php } elseif (is_year()) { ?>
-                                            <h1>
-                                                <span><?php _e("Yearly Archives:", "jointstheme"); ?></span> <?php the_time('Y'); ?>
-                                            </h1>
-                                        <?php } else {  the_title('<h1>', '</h1>'); } ?> -->                                
-                                
+                               <ul class="example-orbit" data-orbit>
+                                 <li>
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption One.
+                                   </div>
+                                 </li>
+                                 <li class="active">
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption Two.
+                                   </div>
+                                 </li>
+                                 <li>
+                                   <img src="uci-aldrich.jpg" alt="slide 1" />
+                                   <div class="orbit-caption">
+                                     Caption Three.
+                                   </div>
+                                 </li>
+                               </ul>
                              </div>
-
-					</div> <!-- end #inner-header -->
-
-
+    					</div> <!-- end #inner-header -->
 				</header> <!-- end header -->
