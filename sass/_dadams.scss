@@ -25,14 +25,14 @@ body {
 
         li {
             list-style: none;
-            font-size: 15px;
+            font: 13.5px Gibson-Light, Arial, Helvetica, sans-serif;
             line-height: 24px;
         }
         h5 {
             text-transform: uppercase;
             color: #221f20;
             margin: 0 0 12px 15px;
-            font: 18px Gibson-SemiBold, Arial, Helvetica, sans-serif;
+            font: 14px Gibson-SemiBold, Arial, Helvetica, sans-serif;
             font-weight: 500;
         }
         #footer-logo {
@@ -42,7 +42,7 @@ body {
         }
         #copyright_text {
             text-align: center;
-            font: 11px/13px Helvetica, Arial, sans-serif;
+            font: 7px Helvetica, Arial, sans-serif;
             color: #b7b7b7;
             border-top: 2px solid #e7e7e7;
             padding: 15px 0 20px;
