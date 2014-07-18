@@ -48,12 +48,12 @@
     					<div id="inner-header" class="row collapse">
                             <!-- LOGO -->
                             <div class="large-3 columns medium-3 columns" id="logo">
-                                <img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" />
+                                <a href="http://www.unigo.com/blog"><img src="/wp_unigoblog/unigoLogo.gif" width="158" height="72" /></a> 
                             </div>
 
                             <!-- "BECOME A MEMBER" DROPDOWN -->
-                            <div class="large-3 large-offset-5 medium-3 medium-offset-5 columns hide-for-small" id="signup_nav">
-                                <!-- top-area -->
+                            <div class="large-9 medium-9 columns hide-for-small" id="register_div">
+                                
                                 <nav role="signup_nav">  
                                     <?php
                                     
@@ -82,13 +82,12 @@
 
                                     wp_nav_menu( $defaults );
                                     ?>
-                                </nav>  
-                            </div>                              
-                            
-                            <!-- "SIGN IN" BUTTON  -->
-                            <div class="large-1 columns medium-1 columns hide-for-small" id="signin_nav">
-                                <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
-                            </div>
+                                </nav>
+                                <!-- "SIGN IN" BUTTON  -->
+                                <div class="hide-for-small" id="signin_nav">
+                                    <a id="loginlogout" class="orange-link" href="/Login.aspx">sign in</a>
+                                </div>  
+                            </div>     
 
                             <div class="clear"></div>
 
@@ -98,13 +97,9 @@
                             
                             
                          <!-- HORIZONTAL LINKS -->
-
-    						<!-- You only need to use one of the above navigations.
-    							 Offcanvas-sidebar adds a sidebar to a "right" offcanavas menus. -->
-
-                                <div class="large-12 columns medium-12 columns" id="nav_header_box">
-                                <?php get_template_part( 'partials/nav', 'topbar' ); ?>
-                                </div>
+                            <div class="large-12 columns medium-12 columns" id="nav_header_box">
+                            <?php get_template_part( 'partials/nav', 'topbar' ); ?>
+                            </div>
 
                              <div class="small-12 columns hide-for-small">
                                <ul class="example-orbit" data-orbit>
@@ -128,51 +123,6 @@
                                  </li>
                                </ul>
                              </div>
- 
-                              <!-- <div class="large-12 columns medium-12 columns" id="big_black_box">
-                                  
-                                            <?php if (is_home()) { ?>
-                                                <h1>
-                                                    Unigo Blog
-                                                </h1>
-                                            <?php } elseif ( is_search() ) { ?>
-                                               <h1><span><?php _e('Search Results for:', 'jointstheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
-
-                                            <?php } elseif (is_category()) { ?>
-                                                <h1>
-                                                    <span><?php _e("Topic:", "jointstheme"); ?></span> <?php single_cat_title(); ?>
-                                                </h1>
-                                            
-                                            <?php } elseif (is_tag()) { ?> 
-                                                <h1>
-                                                    <span><?php _e("Tagged:", "jointstheme"); ?></span> <?php single_tag_title(); ?>
-                                                </h1>
-                                            
-                                            <?php } elseif (is_author()) { 
-                                                global $post;
-                                                $author_id = $post->post_author;
-                                            ?>
-                                                <h1>
-                                                    <span><?php _e("Posts By:", "jointstheme"); ?></span> <?php echo get_the_author_meta('display_name', $author_id); ?>
-                                                </h1>
-                                            <?php } elseif (is_day()) { ?>
-                                                <h1>
-                                                    <span><?php _e("Daily Archives:", "jointstheme"); ?></span> <?php the_time('l, F j, Y'); ?>
-                                                </h1>
-                            
-                                            <?php } elseif (is_month()) { ?>
-                                                <h1>
-                                                    <span><?php _e("Monthly Archives:", "jointstheme"); ?></span> <?php the_time('F Y'); ?>
-                                                </h1>
-                                        
-                                            <?php } elseif (is_year()) { ?>
-                                                <h1>
-                                                    <span><?php _e("Yearly Archives:", "jointstheme"); ?></span> <?php the_time('Y'); ?>
-                                                </h1>
-                                            <?php } else {  the_title('<h1>', '</h1>'); } ?>                                
-                                    
-                                 </div>
--->
     					</div> <!-- end #inner-header -->
 
     				</header> <!-- end header -->
