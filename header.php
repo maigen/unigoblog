@@ -130,7 +130,7 @@
                                  </div>
 
                                 <div class="small-4 columns">
-                                  <img src="banner2.jpg">
+                                  <a href="#"><img src="banner2.jpg"></a>
                                 </div>
 
                                </div>
