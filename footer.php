@@ -18,8 +18,7 @@
 										</li>
 									</ul>
 								</div>
-
-
+								
 							
 								<div class="large-3 medium-3 columns">
 									<h5>About Unigo</h5>
@@ -151,5 +150,6 @@
 				<!-- all js scripts are loaded in library/joints.php -->
 				<?php wp_footer(); ?>
 	</body>
+
 
 </html> <!-- end page -->

@@ -1,6 +1,5 @@
 <div class="large-12 columns show-for-medium-up">
 
-
 		<!-- If you want to use the more traditional "fixed" navigation.
 		 simply replace "sticky" with "fixed" -->
 
